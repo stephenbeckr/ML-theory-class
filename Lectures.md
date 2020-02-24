@@ -4,6 +4,10 @@ Theoretical Machine Learning (APPM 7400) class, Spring 2020, at CU Boulder
 Abbreviations for sources:
 - [SSS] is Shai Shalev-Shwartz and Shai Ben-David's "Understanding Machine Learning"
 - [Mohri] is Mehryar Mohri, Afshin Rostamizadeh and Ammet Talwaker's "Foundations of Machine Learning" (2nd ed)
+- [Woodruff] is David Woodruff's 2014 [Sketching as a Tool for Numerical Linear Algebra](http://dx.doi.org/10.1561/0400000060)
+- [Hastie] is [The Elements of
+Statistical Learning](https://web.stanford.edu/~hastie/ElemStatLearn/) by Hastie, Tibshirani and Friedman (2nd ed, 2009)
+- [Vogel] is [Computational Inverse Problems](https://epubs.siam.org/doi/book/10.1137/1.9780898717570) by Vogel (2002).
 
 
 
@@ -38,5 +42,5 @@ Abbreviations for sources:
 - [Fri 2/21] more boosting, discuss complexity of sorting, finding top-k elements, median, and shuffling. Introduce **AdaBoost**, prove main analysis result (Thm 10.2 [SSS], Thm 7.2 [Mohri]), following Mohri's proof.
 
 ### Week 7. Ch 10 and 11 [SSS]
-- [Mon 2/24] more boosting, relation to **bagging** and **boostrap sampling**, analysis of VC dimension.
+- [Mon 2/24] more boosting, relation to **bagging** and **bootstrap sampling**, analysis of VC dimension. Start ch 11.1 in [SSS] on **Structural Risk Minimization (SRM)**, then **Mallow's Cp statistic** aka **UPRE** from [Hastie]
 - Model Selection
