@@ -45,3 +45,8 @@ Statistical Learning](https://web.stanford.edu/~hastie/ElemStatLearn/) by Hastie
 - [Mon 2/24] more boosting, relation to **bagging** and **bootstrap sampling**, analysis of VC dimension. Start ch 11.1 in [SSS] on **Structural Risk Minimization (SRM)**, then **Mallow's Cp statistic** aka **UPRE** from [Hastie]
 - [Wed 2/26] Equivalence of Mallow's Cp with UPRE, and generalization of UPRE to **Stein's Unbiased Risk Estimate (SURE)**. Derivation of UPRE, loosely based on [Vogel]. Detour on **Stein's Phenomenon** and the **James-Stein estimator**. Briefly mention **Akaike Information Criterion (AIC)** and **Bayesian Information Criterion (BIC)**, loosely based on [Hastie].
 - [Fri 2/28] **Minimum Description Length (MDL)**, loosely based on [Hastie], [Grunwald] and [SSS]. [Grunwald] is [A tutorial introduction to the minimum description length principle](https://arxiv.org/abs/math/0406077) (Peter Grunwald, 2004). **Bootstrap** sampling and .632 correction, following [Hastie]. **Morozov Discrepancy Principle** following [Vogel].
+
+### Week 8. Ch 11 and 12 [SSS]
+- [Mon 3/2] Finish model selection chapter by discussing **L-curve method** and **Cross-validation** (Thm 11.1 and 11.2 in [SSS], and discussion in [Hastie]), and **Generalized Cross-validation (GCV)** [Vogel].
+- [Wed 3/4] Half class on review for midterm, half on starting Ch 12 on Convex Learning problems
+- [Fri 3/6] Midterm exam (in class, closed book)
