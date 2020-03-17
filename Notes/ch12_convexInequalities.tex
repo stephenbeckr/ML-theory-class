@@ -1,0 +1,206 @@
+%\documentclass[10pt]{beamer}% 11pt is default, but can try 10pt
+\documentclass[10pt,handout]{beamer}
+
+\input{headers}
+
+% === Title and such ===
+
+\title[Ch 12: inequalities]{Ch 12: Convexity\\APPM 7400 Theory of Machine Learning\\Spring 2020}
+
+\author{Stephen Becker}
+\institute[CU]{University of Colorado Boulder}
+
+\date[APPM 7400 Theory of ML]{March 16 2020}
+
+% for the PDF meta data
+%\subject{...}
+\begin{document}
+
+
+% === Slide ====================================================================
+\begin{frame}
+    \titlepage
+\end{frame}
+
+
+% === Section===================================================================
+\section{Definitions}
+
+
+% === Slide ====================================================================-
+\begin{frame}{Smoothness and Strong Convexity}
+%    \frametitle{Ingredient 1: Sketching}
+%    \setbeamercovered{invisible}
+
+
+The definition of ``\textbf{smoothness}'' in some books (or ``strong smoothness'') of $f$ means  Lipschitz continuity of $\nabla f$  (with constant $L$):
+\begin{equation} \label{eq:LL}
+    \forall x, y\quad \| \nabla f(x) - \nabla f(y) \| \le L \|x-y\|
+\end{equation}
+\medskip 
+
+The definition of $f$ being $\mu>0$ \textbf{strongly convex} means that the function $x \mapsto f(x) - \frac{\mu}{2}\|x\|^2$ is convex\footnote{
+    See Thm. 5.17 and Remark 5.18 in \cite{BeckBook} --- this is actually only true if $\|\cdot\|$ is the induced norm from the inner product. However, most other properties hold for a general norm.
+}. 
+
+\medskip
+In the slides below, if $L$ or $\mu$ appears, then we are assuming the gradient is Lipschitz with constant $L$ or $f$ is strongly convex with constant $\mu$, respectively. Most references to Nesterov's book are to his first edition~\cite{Nesterov_2004}, not the recent 2018  edition~\cite{Nesterov_2018}.
+
+\end{frame}
+
+% === Section===================================================================
+\section{Inequalities}
+
+% === Slide ====================================================================-
+\begin{frame}{Under- and over-approximations}
+These two inequalities are very helpful; see, e.g., Thm 2.1.5 and Thm 2.1.10 from \cite{Nesterov_2004}.
+\begin{align}
+    f(y) &\le f(x) + \iprod{\nabla f(x)}{ y - x } + \frac{L}{2}\|x-y\|^2 \label{eq:L} \\
+    f(y) &\ge f(x) + \iprod{\nabla f(x)}{ y - x } + \frac{\mu}{2}\|x-y\|^2 \label{eq:mu}
+\end{align}
+If we drop convexity but keep Lipschitz continuity of the gradient, then the first equation is still true, but the second equation is not true with $\mu=0$, but it is true with $\mu = -L$.  This is often written as
+$\left| f(y) - ( f(x) + \iprod{\nabla f(x)}{ y - x } )\right| \le \frac{L}{2}\|x-y\|^2$.
+
+\bigskip
+Related, \cite[Thm.\ 2.1.5, Eq.\ 2.1.10]{Nesterov_2018} gives 
+\[
+f(y) \ge f(x) + \<\nabla f(x), y-x\> + \frac{1}{2L}\|\nabla f(x)  - \nabla f(y) \|^2 
+\]
+\end{frame}
+
+
+
+
+
+% === Slide ====================================================================-
+\begin{frame}{Inequalities}
+Some nice inequalities can be summarized by: 
+{\footnotesize 
+\begin{equation} \label{eq:big}
+    \left.\begin{aligned}
+        L^{-1} \| \nabla f(x) - \nabla f(y) \|^2  \quad\text{\textcolor{red}{(a)}} \\
+        \mu \|x-y\|^2 
+        \quad\text{\textcolor{red}{(b)}} \\
+%        \frac{\mu L}{\mu + L} \|x-y\|^2  + \frac{1}{\mu+L}\| \nabla f(x) - \nabla f(y) \|^2
+%        \quad\text{\small\textcolor{red}{(c)}}
+    \end{aligned} \right\rbrace
+    \le \< \nabla f(x) - \nabla f(y), x-y \> 
+    \le 
+    \left\lbrace\begin{aligned}
+        \text{\textcolor{red}{(d)}} \quad& L \|x-y\|^2  \\
+        \text{\textcolor{red}{(e)}} \quad& \mu^{-1}  \| \nabla f(x) - \nabla f(y) \|^2
+    \end{aligned} \right.
+\end{equation}
+}
+
+The inequality {\small\textcolor{red}{(a)}} %left-most $\le$ above in the line for $L$ 
+really follows from the co-coercivity of gradients; this result is actually surprisingly strong, since it makes implicit use of the Baillon-Haddad theorem. The result {\small\textcolor{red}{(e)}} for $\mu$ also requires $f$ be continuously differentiable. 
+
+\medskip
+We can actually get a tighter lower bound if we assume \emph{both} strong convexity and Lipschitz continuity of the gradient; see \cite[Thm. 2.1.12]{Nesterov_2004} for a derivation. That result is:
+\[
+\frac{\mu L}{\mu + L} \|x-y\|^2  + \frac{1}{\mu+L}\| \nabla f(x) - \nabla f(y) \|^2
+\le \< \nabla f(x) - \nabla f(y), x-y \> 
+\]
+
+
+%The {\small\textcolor{red}{(c)}} inequality assumes both strong convexity and Lipschitz continuity of the gradient; see \cite[Thm. 2.1.12]{Nesterov_2004} for a derivation.
+
+
+\end{frame}
+
+
+% === Slide ====================================================================-
+\begin{frame}{Sub-optimality bounds}
+
+ For unconstrained smooth optimization, if $x^\star$ is a minimizer, then $\nabla f(x^\star) = 0$. Note there are 3 equivalent definitions of optimality: $x$ is optimal if
+\begin{equation}
+    \|x - x^\star\|=0, \quad
+    f(x) - f^\star = 0, \quad
+    \|\nabla f(x)\| = 0
+\end{equation}
+%and this would be ``iff'' if we assume the optimal solution is unique.
+
+\medskip If we change all the zeros above to $\epsilon > 0$, are these conditions equivalent? 
+On the next slides, we'll investigate this.
+
+\medskip To start with, here's a first result: note that since the gradient is in the subdifferential, combined with H\"older's inequality, then (\cite[\S2.2.2]{Nesterov_2018})
+\begin{equation}
+    f(x)-f^\star \le \|\nabla f(x)\|_p \|x-x^\star\|_{p'}\quad (\forall p,p' \text{ s.t. } 1/p + 1/p' = 1 )
+\end{equation}
+which doesn't require Lipshitz continuity or strong convexity. This can be useful if it is known $x$ lies in a bounded set, since then $\|x-x^\star\|$ can be bounded.
+
+\end{frame}
+
+% === Slide ====================================================================-
+\begin{frame}{Sub-optimality bounds: assuming strong smoothness}
+If $f$ has a $L$-Lipschitz continuous derivative, we can bound
+\begin{align}
+    \|\nabla f(x) \| = \| \nabla f(x) - \nabla f(x^\star)\| &\le L \|x-x^\star\| \quad \text{by \eqref{eq:LL}}\\
+    f(x) - f^\star &\le \frac{L}{2}\|x-x^\star\|^2
+    \quad\text{by \eqref{eq:L}} \\
+    \|\nabla f(x) \|^2 &\le 2L \left( f(x) - f^\star\right) \quad\text{by Eq. (9.14) in \cite{BoydVandenbergheBook}} \label{eq:33}
+\end{align}
+
+Note further that $f$ must be twice-continuously differentiable to apply 
+\eqref{eq:33} is proved in \cite{BoydVandenbergheBook} assuming $f$ is twice-differentiable, but without assuming twice differentiability it can be proved using \cite[Thm.\ 2.1.5, Eq.\ 2.1.10]{Nesterov_2018}.
+    
+\end{frame}
+
+% === Slide ====================================================================-
+\begin{frame}{Sub-optimality bounds: assuming strong convexity}
+Assuming $f$ is $\mu>0$ strong convexity, we can bound in the other direction:
+\begin{align}
+    \|x-x^\star\|^2 &\le \frac{1}{\mu^2}\|\nabla f(x)\|^2 
+    \quad \text{by \eqref{eq:big}  {\small\textcolor{red}{(b)}} and  {\small\textcolor{red}{(e)}} }
+    \\
+    \|x-x^\star\|^2 &\le \frac{2}{\mu}\left( f(x) - f^\star\right)
+    \quad \text{by \eqref{eq:mu}, with $x=x^\star$, $y=x$} \label{eq:10} \\
+    f(x) - f^\star &\le \frac{1}{2\mu}\|\nabla f(x)\|^2 \quad\text{by Eq. (9.9) in \cite{BoydVandenbergheBook}. This is PL}
+    \label{eq:44}
+\end{align}
+Note: at least Eq.~\eqref{eq:10} holds for any norm~\cite[Thm. 5.25]{BeckBook}.
+
+ Note: \eqref{eq:44} is the Polyak-Lojasiewicz (PL) inequality, see \href{https://arxiv.org/abs/1608.04636}{Karimi, Nutini, Schmidt} for details. 
+ 
+ 
+
+\end{frame}
+
+
+% === Slide ====================================================================-
+\begin{frame}{References}
+\begin{thebibliography}{AZQRY16}
+    
+    \bibitem[BC11]{bauschke2011convex}
+    H. H. Bauschke and P.~L. Combettes, \href{https://link.springer.com/book/10.1007/978-1-4419-9467-7}{\emph{Convex analysis and monotone
+            operator theory in {H}ilbert spaces}, 1st edition}, {S}pringer, 2011.
+    
+    \bibitem[BC17]{bauschke2017convex}
+    H. H. Bauschke and P.~L. Combettes, \href{https://link.springer.com/book/10.1007/978-3-319-48311-5}{\emph{Convex analysis and monotone
+            operator theory in {H}ilbert spaces}, 2nd edition}, {S}pringer, 2017.
+    
+    \bibitem[Bec17]{BeckBook}
+    A. Beck, \href{First-Order Methods in Optimization}, SIAM, 2017.
+    
+    \bibitem[BV04]{BoydVandenbergheBook}
+    S.~Boyd and L.~Vandenberghe.
+    \newblock \href{http://www.stanford.edu/~boyd/cvxbook/}{{\em Convex Optimization}}.
+    \newblock Cambridge University Press, 2004.
+    
+    \bibitem[Nes04]{Nesterov_2004}
+    Yu.~Nesterov.
+    \newblock \href{https://link.springer.com/book/10.1007/978-1-4419-8853-9}{{\em Introductory Lectures on Convex Optimization: A Basic Course}},
+    volume~87 of {\em Applied Optimization}.
+    \newblock Kluwer, Boston, 2004.
+    
+    \bibitem[Nes18]{Nesterov_2018}
+    Yu. Nesterov.
+    \newblock \href{https://link.springer.com/book/10.1007/978-3-319-91578-4}{{\em Lectures on Convex Optimization}}.
+    \newblock Springer International Publishing, 2018.
+    
+\end{thebibliography}
+    
+\end{frame}
+
+\end{document}
