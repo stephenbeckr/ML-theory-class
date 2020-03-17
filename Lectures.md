@@ -48,5 +48,14 @@ Statistical Learning](https://web.stanford.edu/~hastie/ElemStatLearn/) by Hastie
 
 ### Week 8. Ch 11 and 12 [SSS]
 - [Mon 3/2] Finish model selection chapter by discussing **L-curve method** and **Cross-validation** (Thm 11.1 and 11.2 in [SSS], and discussion in [Hastie]), and **Generalized Cross-validation (GCV)** [Vogel].
-- [Wed 3/4] Half class on review for midterm, half on starting Ch 12 on Convex Learning problems
+- [Wed 3/4] Review for midterm
 - [Fri 3/6] Midterm exam (in class, closed book)
+
+### Week 9. Ch 12 [SSS]
+- [Mon 3/9] Ch 12 on **convexity**: convex functions and sets, convex optimization problems, convex learning problems. Lipschitz continuity and (strong) smoothness; basic inequalities (see [Convex inequalities](Notes/ch12_convexInequalities.pdf))
+- [Wed 3/11] More ch 12, with more inequalities and examples.
+- [Fri 3/13] Class cancelled at the last minute due to campus coronavirus closure
+
+### Week 10. Ch 13 [SSS] (Class has moved fully online due to coronavirus)
+- [Mon 3/17] Ch 13 on **regularization and stability** aka **algorithmic stability**, introducing **regularized loss minimization (RLM)**, and the new concept of *expected* risk. Analysis of the **on-average-replacement-stability** for strongly convex/Tikhonov  regularization (e.g., **ridge regression**), somewhat similar to the *uniform stability* of ch 14 [Mohri]. Lecture via **screencast** posted to Canvas; see [static PDF of notes (typed)](Notes/ch13_stability_article.pdf)
+- [Wed 2/19] Finish ch 13, discuss bias term, history, bagging (and comparison with boosting), and comparison with [Mohri] presentation.  Leture also via **screencast**
