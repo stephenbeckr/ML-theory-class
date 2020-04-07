@@ -82,3 +82,9 @@ Statistical Learning](https://web.stanford.edu/~hastie/ElemStatLearn/) by Hastie
 - [Wed 4/1] Ch 16 on **Kernel methods**, showing example of the **kernel trick** on kernel ridge regression (not in book), and general theory for SVM and beyondn using the **representer theorem** (with proof). A few examples of kernels; restrictions on kernel functions via **Mercer's Theorem**, brief example of **Reproducing Kernel Hilbert Space (RKHS)** without going into detail.  Supplement on **Nystrom method**, and **Random Fourier Features** and **Bochner's Theorem** for shift-invariant kernels.
 
 - [Fri 4/3] **Gaussian Processes**, following a mixture of [RW] and [Murphy] ([Murphy] is a condensed presentation, based on [RW]). Introduce main idea, and **kernel trick**, and some brief comparison with SVM. [PDF of notes (handwritten) bout GP](Notes/GaussianProcesses.pdf)
+
+### Week 12. Ch 20 [SSS] on artificial Neural Networks
+- [Mon 4/6] **Neural nets** description, background and history, discussion of **approximation error** (e.g., universal function approximation, like Stone-Weierstrass style density theorems) for many variants (e.g., L^1 density, density in continuous functions with uniform norm, exact representation of Boolean functions, etc.). Lower bounds on size of networks needed to approximate functions. Some from book, some from recent neural net papers in past 4 years.  Discussion of shortcoming of classical theory, some mention of modern algorithm-dependent approaches.
+- [Wed 4/8] Short lecture on bounding the **VC dimension of neural nets**. Proof for one activation function, results stated for two more activation functions.
+
+- [Fr 4/10] Short lecture on the **NP-Hardness of ERM (e.g., training) for neural nets** (no proof), discussion of **SGD** again, except in non-convex case. Introduce **reverse-mode Automatic Differentiation** (at a high-level, no example) and **backpropagation** for neural nets.
