@@ -10,6 +10,8 @@ Statistical Learning](https://web.stanford.edu/~hastie/ElemStatLearn/) by Hastie
 - [Vogel] is [Computational Inverse Problems](https://epubs.siam.org/doi/book/10.1137/1.9780898717570) by Vogel (2002).
 - [RW] is [Gaussian Processes for Machine Learning](http://www.gaussianprocess.org/gpml/) by Rasmussen and Williams (2006, MIT press, free PDFs online)
 - [Murphy] is Kevin Murphy's [Machine Learning: a Probabilistic Perspective](https://www.cs.ubc.ca/~murphyk/MLbook/) (2012, MIT press)
+- [SuttonBarto] is Richard Sutton and Andrew Barto's [Reinforcement Learning: An Introduction](http://incompleteideas.net/book/the-book-2nd.html) (2018, 2nd edition)
+- [Puterman] is Martin Puterman's [Markov Decision Processes: Discrete Stochastic Dynamic Programming](https://dl.acm.org/doi/book/10.5555/528623) (1994, John Wiley)
 
 
 
@@ -96,4 +98,5 @@ Statistical Learning](https://web.stanford.edu/~hastie/ElemStatLearn/) by Hastie
 
 - [Fri 4/17] The **doubling trick** and **online-to-batch** conversion.  **Convex online learning** (skip proof, as similar to ch 14), and briefly mention the **perceptron**. See Shalev-Shwartz's 2011 monograph on *Online Learning* for more background. [PDF of notes (handwritten) about doubling/online-to-batch/online-convex](Notes/ch21_OnlineLearning_part2.pdf)
 
-### Week 14. Reinforcement Learning (from [Mohri])
+### Week 14. Reinforcement Learning (from ch 17 [Mohri])
+- [Mon 4/20] Introduction to **Reinforcement Learning** (RL) mostly following Mohri, but with examples from [SuttonBarto] and [Puterman]. Give examples: MuJuCo, AlphaGo, Tesauro's backgammon, [Pig dice game](https://en.wikipedia.org/wiki/Pig_(dice_game)). Define **infinite-horizon discounted** **Markov Decision process (MDP)**, and define the value of a **policy**, and define an optimal policy. Discuss finite-MDP and deterministic policies. [PDF of notes (handwritten) about intro to RL](Notes/ReinforcementLearning_part1.pdf)
