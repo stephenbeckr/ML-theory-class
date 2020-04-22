@@ -100,3 +100,11 @@ Statistical Learning](https://web.stanford.edu/~hastie/ElemStatLearn/) by Hastie
 
 ### Week 14. Reinforcement Learning (from ch 17 [Mohri])
 - [Mon 4/20] Introduction to **Reinforcement Learning** (RL) mostly following Mohri, but with examples from [SuttonBarto] and [Puterman]. Give examples: MuJuCo, AlphaGo, Tesauro's backgammon, [Pig dice game](https://en.wikipedia.org/wiki/Pig_(dice_game)). Define **infinite-horizon discounted** **Markov Decision process (MDP)**, and define the value of a **policy**, and define an optimal policy. Discuss finite-MDP and deterministic policies. [PDF of notes (handwritten) about intro to RL](Notes/ReinforcementLearning_part1.pdf)
+- [Wed 4/22] Theoretical background on optimality, eventually deriving the **Bellman Equations**. [PDF of notes (handwritten) about Bellman Equations](Notes/ReinforcementLearning_part2.pdf)
+
+- [Fri 4/24] (Note: for the next three classes, there are presentations, but still two lectures) **Planning algorithms** including **value iteration** (and variants like Gauss-Seidel), **policy iteration** (and variants, like modified policy iteration), and **linear programming** formulation.
+
+### Week 15, more RL
+- [Mon 4/27] Learning algorithms
+
+- [Wed 4/29] (Last day of class) No lecture, to account for presentations
