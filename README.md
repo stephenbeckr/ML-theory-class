@@ -3,9 +3,11 @@ Theoretical Machine Learning (APPM 4490/5490) class, Spring 2022, at CU Boulder
 
 This github repo currently has a mix of new (Spring 2022) and old material (from when I previously taught it Spring 2020 under the special topics number APPM 7400).
 
-[Syllabus](APPM7400_Spr20_TheoreticalML_syllabus.pdf)
+[Syllabus](syllabus.md)
 
-A [day-by-day lecture schedule](Lectures.md)
+The **old** syllabus for Spring 2020 is [APPM7400_Spr20_TheoreticalML_syllabus.pdf](APPM7400_Spr20_TheoreticalML_syllabus.pdf).  This is *not* for Spring 2022.
+
+A [day-by-day lecture schedule from Spring 2020](Lectures2020.md)
 
 ## Previous versions of the course
 - This is taught Spring 2022 as APPM 4490/5490 (instructor: Stephen Becker, Applied Math dept)
