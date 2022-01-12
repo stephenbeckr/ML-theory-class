@@ -18,4 +18,5 @@ Statistical Learning](https://web.stanford.edu/~hastie/ElemStatLearn/) by Hastie
 
 
 ### Week 1.  Ch 1, 2, 3 [SSS]
-- [Mon 1/10] **Introduction**, ch 1 [SSS], parts of ch 1.3 [Mohri]. What is ML, compare to other types of learning, types of learning (supervised, etc.), standard tasks, papaya example, inductive bias and generalization
+- [Mon 1/10] **Introduction**, ch 1 [SSS], parts of ch 1.3 [Mohri]. What is ML, compare to other types of learning, types of learning (supervised, etc.), standard tasks, papaya example, inductive bias and generalization. Start on lecture 1
+- [Wed 1/12] Finish lecture 1, do lecture 2, and start lecture 3 (up to axis-aligned rectangles)
