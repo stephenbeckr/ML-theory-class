@@ -13,3 +13,7 @@ A [day-by-day lecture schedule from Spring 2020](Lectures2020.md)
 - This is taught Spring 2022 as APPM 4490/5490 (instructor: Stephen Becker, Applied Math dept)
 - In Spring 2021, this course is [CSCI 7000, APPM 5590, APPM 4490](https://www.bowaggoner.com/courses/2021/learning-theory/) taught by Bo Waggoner, CS dept
 - This was taught as a special topics course in Spring 2020 (instructor: Stephen Becker, Applied Math dept)
+
+# Student projects
+
+[![image for spring 2020](SlideshowAllPresentations_7400Spr20_MLTheory.jpg)](SlideshowAllPresentations_7400Spr20_MLTheory.pdf)
