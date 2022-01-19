@@ -20,3 +20,9 @@ Statistical Learning](https://web.stanford.edu/~hastie/ElemStatLearn/) by Hastie
 ### Week 1.  Ch 1, 2, 3 [SSS]
 - [Mon 1/10] **Introduction**, ch 1 [SSS], parts of ch 1.3 [Mohri]. What is ML, compare to other types of learning, types of learning (supervised, etc.), standard tasks, papaya example, inductive bias and generalization. Start on lecture 1
 - [Wed 1/12] Finish lecture 1, do lecture 2, and start lecture 3 (up to axis-aligned rectangles)
+- [Fri 1/14] (asynchronous) PAC learning, agnostic PAC learning, analysis of finite hypothesis class. Lecture notes 4 and 5
+
+### Week 2. Ch 3 [SSS]
+- [Mon 1/17] No school, MLK day
+- [Wed 1/19] Lecture notes 6 (recap) and 7 on uniform convergence, and our analysis of UC for finite hypothesis classes; derivation of Hoeffding inequality and mention of other concentration in equalities
+  - TODO, will post notes on other concentration inequalities
