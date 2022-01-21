@@ -26,3 +26,4 @@ Statistical Learning](https://web.stanford.edu/~hastie/ElemStatLearn/) by Hastie
 - [Mon 1/17] No school, MLK day
 - [Wed 1/19] Lecture notes 6 (recap) and 7 on uniform convergence, and our analysis of UC for finite hypothesis classes; derivation of Hoeffding inequality and mention of other concentration in equalities
   - TODO, will post notes on other concentration inequalities
+- [Fri, 1/21] [Lecture notes 8](Notes/8_NoFreeLunches.pdf) on No Free Lunch theorems
