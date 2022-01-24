@@ -8,3 +8,4 @@
 
 
 - [HW 1](APPM4490_Spr22_HW01.pdf), due Fri Jan 21 at midnight. Turn this in online via Canvas/Gradescope
+- [HW 2](APPM4490_Spr22_HW02.pdf), due Fri Jan 28 at midnight. Turn this in online via Canvas [no need to use Gradescope as this is a very simple assignment]
