@@ -25,5 +25,9 @@ Statistical Learning](https://web.stanford.edu/~hastie/ElemStatLearn/) by Hastie
 ### Week 2. Ch 3 [SSS]
 - [Mon 1/17] No school, MLK day
 - [Wed 1/19] Lecture notes 6 (recap) and 7 on uniform convergence, and our analysis of UC for finite hypothesis classes; derivation of Hoeffding inequality and mention of other concentration in equalities
-  - TODO, will post notes on other concentration inequalities
+  - Notes on other concentration inequalities are posted on Canvas
 - [Fri, 1/21] [Lecture notes 8](Notes/8_NoFreeLunches.pdf) on No Free Lunch theorems
+
+### Week 3.
+- [Mon 1/24] [Lecture notes 9](Notes/9_BiasVarianceTradeoff.pdf) on Bias-Variance Tradeoff, and half of [Lecture notes 10](Notes/10_Intro_RademacherComplexity.pdf) introducing Rademacher complexity. We follow the Mohri text book for a lot of this.
+- [Wed 1/26] Finish Lecture notes 10, then start [Lecture notes 11](11_RademacherComplexity_GeneralizationBound.pdf) on using McDiarmid's inequality to get a generalization bound involving Rademacher complexity
