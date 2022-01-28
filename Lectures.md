@@ -31,3 +31,4 @@ Statistical Learning](https://web.stanford.edu/~hastie/ElemStatLearn/) by Hastie
 ### Week 3.
 - [Mon 1/24] [Lecture notes 9](Notes/9_BiasVarianceTradeoff.pdf) on Bias-Variance Tradeoff, and half of [Lecture notes 10](Notes/10_Intro_RademacherComplexity.pdf) introducing Rademacher complexity. We follow the Mohri text book for a lot of this.
 - [Wed 1/26] Finish Lecture notes 10, then start [Lecture notes 11](11_RademacherComplexity_GeneralizationBound.pdf) on using McDiarmid's inequality to get a generalization bound involving Rademacher complexity
+- [Fri 1/28] Finish Lecture notes 11, then start [Lecture notes 12](12_RademacherComplexitySet_CoveringNumbers.pdf) on generalizing Rademacher complexity, tools for calculating it, Massart Lemma, and then covering numbers. We proved a bound on the covering number of a subspace intersectioned with the sphere.
