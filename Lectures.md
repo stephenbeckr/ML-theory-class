@@ -37,3 +37,6 @@ Statistical Learning](https://web.stanford.edu/~hastie/ElemStatLearn/) by Hastie
 - [Mon 1/31] (back in person, no PDF of lecture notes). Johnson-Lindenstrauss lemma, and just barely motivate chaining at the end
 - [Wed 2/2] (no school, snow day)
 - [Fri 2/4] Some JL chaining (for subspace embedding) from Woodruff, then start Dudley's thm from [SSS]
+
+### Week 5.
+- [Mon 2/7] Finish Dudley's theorem, start on growth function and VC dimension
