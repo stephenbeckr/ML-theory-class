@@ -40,3 +40,5 @@ Statistical Learning](https://web.stanford.edu/~hastie/ElemStatLearn/) by Hastie
 
 ### Week 5.
 - [Mon 2/7] Finish Dudley's theorem, start on growth function and VC dimension
+- [Wed 2/9] More on VC dimension; examples; growth function
+- [Wed 2/9] More on VC dimension; more examples; Sauer's lemma; Fundamental Theorem of (binary) PAC learning, qualitative version
