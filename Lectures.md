@@ -41,4 +41,8 @@ Statistical Learning](https://web.stanford.edu/~hastie/ElemStatLearn/) by Hastie
 ### Week 5.
 - [Mon 2/7] Finish Dudley's theorem, start on growth function and VC dimension
 - [Wed 2/9] More on VC dimension; examples; growth function
-- [Wed 2/9] More on VC dimension; more examples; Sauer's lemma; Fundamental Theorem of (binary) PAC learning, qualitative version
+- [Fri 2/11] More on VC dimension; more examples; Sauer's lemma; Fundamental Theorem of (binary) PAC learning, qualitative version
+
+### Week 6
+- [Mon 2/14] Start on chapter 9 of the book on linear predictors. Cover binary predictors, introduce linear programs and discuss their complexity. Discuss ERM of binary classification (tractable iff separable).
+- [Wed 2/16] Discuss convexity of sets and functions; supremuma, separating hyperplanes, subgradients and subdifferentials, and the subgradient of a max. Apply to Rosenbaltt's perceptron algorithm from 1958.
