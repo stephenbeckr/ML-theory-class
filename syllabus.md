@@ -30,6 +30,7 @@ During times when the class is remote, we will meet via zoom (link is on Canvas)
 3 hours per week, held in a hybrid fashion: attend the physical office (338 ECOT) or via zoom (link is posted in Canvas)
 
 Times:
+
 - Wed 4-5:30 PM
 - Thu 3-4:30 PM
 
@@ -62,6 +63,7 @@ The overall grade may be **curved** as appropriate (not guaranteed), but note th
 In general, **late homework** assignments are not accepted; instead, you can use your one dropped homework.  Under exceptional circumstances (such as serious illness, including COVID-19, or serious family issues), homework can be turned in late.  If the reason is foreseeable (e.g., planned travel), you must contact the instructor in advance.
 
 Examples:
+
 - Your sister is getting married and you have to travel out-of-state.  That's great, but this is when you use the one dropped homework, or turn the homework in early. This is foreseeable, and not an "emergency", so it does not count as an exceptional circumstance.
 - A close family member becomes infected with COVID-19 and you have to return to your home country to take care of family.  This *does* count as an exceptional circumstance. Please email the instructor to discuss arrangements.
 
@@ -83,6 +85,7 @@ We will use [github](https://github.com/stephenbeckr/ML-theory-class) for public
 The class is intended to be in person most of the time, but we will use zoom for the first two weeks and may need to switch to zoom later as well depending on COVID-19.
 
 On zoom, please have your webcam on if at all possible
+
 - Valid reasons for not having the camera on: to protect the privacy of your family or roommate, if you cannot have a virtual background
 - Invalid reason: you don't feel like it, or you didn't wash your hair.
 
@@ -127,6 +130,7 @@ Amazon). The authors host a [free PDF of the book at their website](https://cs.n
 - For **probability background**, we use [High-Dimensional Probability](https://www.math.uci.edu/~rvershyn/papers/HDP-book/HDP-book.html) by Roman Vershynin, Cambridge University Pres (2018).
 
 While we won't make much use of them, there are lots of other good mathematical texts out there, such as
+
 - “Introduction to Statistical Learning Theory,” Bousquet, Boucheron and Lugosi (2003). 39 pages. Available on the [internet](http://www.econ.upf.edu/~lugosi/mlss_slt.pdf), including via [SpringerLink](https://link.springer.com/chapter/10.1007/978-3-540-28650-9_8).
 - “The Nature of Statistical Learning Theory,” Vapnik, 2nd edition (2000). Available via [SpringerLink](https://link.springer.com/book/10.1007%2F978-1-4757-3264-1).
 
@@ -154,6 +158,7 @@ To see what we actually cover, see the [Lectures.md](Lectures.md) document; you 
 We mostly follow the Shalev-Shwartz and Ben-David book, skipping a few chapters and adding a few chapters from Mohri et al.
 
 **Classical Statistical Learning Theory** We mainly focus on supervised statistical batch learning with a passive learner.
+
 1. Ch 1: Intro to class: what is it about?
 2. Ch 2: Formal models (statistical learning), Empirical Risk Minimization (ERM), finite hypothesis class
 3. Ch 3: Formal Learning model: Probably-Almost-Correct (PAC)
@@ -164,6 +169,7 @@ We mostly follow the Shalev-Shwartz and Ben-David book, skipping a few chapters 
 8. Ch 27: Covering Numbers
 
 **Analysis of Algorithms** As time permits, we will analyze standard algorithms.
+
 1. Ch 9: Linear predictors
 2. Ch 10: Boosting, AdaBoost
 3. Ch 11: Model selection and validation
@@ -174,6 +180,7 @@ We mostly follow the Shalev-Shwartz and Ben-David book, skipping a few chapters 
 8. Ch 20: Neural Networks, expressive power, and new results about deep networks (2017–now)
 
 **Additional Topics** We will cover these as we have time
+
 1. Ch 21: Online Learning
 2. Reinforcement learning (ch 17 in Mohri)
 3. Background on Information Theory (Appendix E in Mohri)
