@@ -12,3 +12,4 @@
 - [HW 3](APPM4490_Spr22_HW03.pdf), due Fri Feb 4 in class or online via Canvas/Gradescope at midnight. Topic: Rademacher complexity.
 - [HW 4](APPM4490_Spr22_HW04.pdf), due Fri Feb 11 in class or online via Canvas/Gradescope at midnight. Topic: VC dimension.
 - [HW 5](APPM4490_Spr22_HW05.pdf), due Fri Feb 18 in class or online via Canvas/Gradescope at midnight. Topic: VC dimension.
+- [HW 6](APPM4490_Spr22_HW06.pdf), due Fri Feb 25 in class or online via Canvas/Gradescope at midnight. Topic: boosting for probability amplification.
