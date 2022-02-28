@@ -46,3 +46,12 @@ Statistical Learning](https://web.stanford.edu/~hastie/ElemStatLearn/) by Hastie
 ### Week 6
 - [Mon 2/14] Start on chapter 9 of the book on linear predictors. Cover binary predictors, introduce linear programs and discuss their complexity. Discuss ERM of binary classification (tractable iff separable).
 - [Wed 2/16] Discuss convexity of sets and functions; supremuma, separating hyperplanes, subgradients and subdifferentials, and the subgradient of a max. Apply to Rosenbaltt's perceptron algorithm from 1958.
+- [Fri 2/18] Linear regression: solving ERM (normal equations, QR factorization, conjugate gradient, SGD); polynomial regression; theory of regression based on Lipschitz loss functions (Thm 11.3 Mohri) 
+
+### Week 7
+- [Mon 2/21] Pseudo-dimension bounds (11.2.3 Mohri) for regression problems; start 9.3 SS on logistic regression and GLM; derive loss function based on maximum likelihood; discuss log-sum-exp trick (e.g., `numpy.logaddexp` and `numpy.log1p`
+- [Wed 2/23] Boosting (ch 10 SS); gamma-weak-learners, motivate need for boosting; example with 3-piece classifier and decision stump (10.1 in SS), and complexity of computing ERM of decision stumps
+- [Fri 2/25] More boosting; complexity of sorting, top-k problems, median finding, shuffling (Fisher-Yates-Knuth shuffle). Comparison to Bootstrap and Bagging.
+
+### Week 8
+- [Mon 2/28] AdaBoost algorithm, and analysis of training error convergence.
