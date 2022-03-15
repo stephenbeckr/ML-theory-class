@@ -43,15 +43,34 @@ Statistical Learning](https://web.stanford.edu/~hastie/ElemStatLearn/) by Hastie
 - [Wed 2/9] More on VC dimension; examples; growth function
 - [Fri 2/11] More on VC dimension; more examples; Sauer's lemma; Fundamental Theorem of (binary) PAC learning, qualitative version
 
-### Week 6
+### Week 6. Ch 9 [SSS]
 - [Mon 2/14] Start on chapter 9 of the book on linear predictors. Cover binary predictors, introduce linear programs and discuss their complexity. Discuss ERM of binary classification (tractable iff separable).
 - [Wed 2/16] Discuss convexity of sets and functions; supremuma, separating hyperplanes, subgradients and subdifferentials, and the subgradient of a max. Apply to Rosenbaltt's perceptron algorithm from 1958.
 - [Fri 2/18] Linear regression: solving ERM (normal equations, QR factorization, conjugate gradient, SGD); polynomial regression; theory of regression based on Lipschitz loss functions (Thm 11.3 Mohri) 
 
-### Week 7
+### Week 7. Ch 10 [SSS]
 - [Mon 2/21] Pseudo-dimension bounds (11.2.3 Mohri) for regression problems; start 9.3 SS on logistic regression and GLM; derive loss function based on maximum likelihood; discuss log-sum-exp trick (e.g., `numpy.logaddexp` and `numpy.log1p`
 - [Wed 2/23] Boosting (ch 10 SS); gamma-weak-learners, motivate need for boosting; example with 3-piece classifier and decision stump (10.1 in SS), and complexity of computing ERM of decision stumps
 - [Fri 2/25] More boosting; complexity of sorting, top-k problems, median finding, shuffling (Fisher-Yates-Knuth shuffle). Comparison to Bootstrap and Bagging.
 
-### Week 8
+### Week 8. Ch 10-11 [SSS]
 - [Mon 2/28] AdaBoost algorithm, and analysis of training error convergence.
+- [Wed 3/2] Finish AdaBoost (discuss VC dimension). Start model selection, ch 11. Validation (Thm 11.1, 11.2). Introduce Tikhonov regularization (ridge regression) as prototypical problem. The next few lectures we'll talk about:
+  - Structural Risk Minimization (SRM); see [SSS]
+  - Mallow's **Cp** statistic (and equivalence to Unbiased Predictive Risk Estimate, **UPRE**); see [Hastie] for Cp, or [Vogel] for UPRE.  Equivalence of Mallow's Cp with UPRE, and generalization of UPRE to **Stein's Unbiased Risk Estimate (SURE)**. 
+  - Briefly mention **Akaike Information Criterion (AIC)** and **Bayesian Information Criterion (BIC)**, loosely based on [Hastie].
+  - **Minimum Description Length (MDL)**, loosely based on [Hastie], [Grunwald] and [SSS]. [Grunwald] is [A tutorial introduction to the minimum description length principle](https://arxiv.org/abs/math/0406077) (Peter Grunwald, 2004). 
+  - **Bootstrap** sampling and .632 correction, following [Hastie]. 
+  - **Morozov Discrepancy Principle** following [Vogel].
+  - **L-curve method**
+  - **Cross-validation** (see discussion in [Hastie])
+  - **Generalized Cross-validation (GCV)** [Vogel].
+- [Fri 3/4] up to SRM, Cp/UPRE/SURE, AIC/BIC, and start MDL
+
+### Week 9. Ch 11 [SSS] and exam
+- [Mon 3/7] MDL, Bootstrap, start Discrepancy principle.
+- [Wed 3/9] Review for midterm
+- [Fri 3/11] In-class midterm
+
+### Week 10. Ch 11 and 12 [SSS]
+- [Mon 3/14] Finish Discrepancy principle; L-curve; cross-validation; GCV; Start ch 12 on Convex learning problems by overview of optimization (e.g., min f(x) = - max -f(x) ... )
