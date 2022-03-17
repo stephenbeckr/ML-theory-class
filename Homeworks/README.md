@@ -16,4 +16,4 @@ List of homeworks:
 - [HW 5](APPM4490_Spr22_HW05.pdf), due Fri Feb 18 in class or online via Canvas/Gradescope at midnight. Topic: VC dimension.
 - [HW 6](APPM4490_Spr22_HW06.pdf), due Fri Feb 25 in class or online via Canvas/Gradescope at midnight. Topic: boosting for probability amplification.
 - [HW 7](APPM4490_Spr22_HW07.pdf), due Fri Mar 4 in class or online via Canvas/Gradescope at midnight. Topic: boosting, AdaBoost
-- [HW 8](APPM4490_Spr22_HW08.pdf), due Fri Mar 18 in class or online via Canvas/Gradescope at midnight. Topic: boosting, VC dimension, Rademacher complexity
+- [HW 8](APPM4490_Spr22_HW08.pdf), due Sun Mar 20 in class or online via Canvas/Gradescope at midnight. Topic: boosting, VC dimension, Rademacher complexity
