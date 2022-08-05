@@ -1,4 +1,4 @@
-# Day by day lecture schedule
+# Day by day lecture schedule, spring 2022
 Theoretical Machine Learning (4490/5490) class, Spring 2022, at CU Boulder
 
 Details on what we covered in spring 2020 at [Lectures2020.md](Lectures2020.md).
