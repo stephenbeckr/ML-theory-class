@@ -22,7 +22,7 @@ This class is expected to meet in person most of the time, though this may chang
 ### Meeting times and location
 Meeting time: MWF 11:15 AM - 12:05 AM
 
-Location: ECCR 151 (Engineering Center)
+Location: ECCR 135 (Engineering Center)
 
 During times when the class is remote, we will meet via zoom (link is on Canvas)
 
