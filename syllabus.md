@@ -1,6 +1,6 @@
 # Policies and syllabus
 
-APPM 4490/5490 Theory of Machine Learning.  University of Colorado Boulder, Spring 2022.
+APPM 4490/5490 Theory of Machine Learning.  University of Colorado Boulder, Spring 2024.
 
 More class info (grades, discrimination policies, secret zoom link, piazza link, etc.) are on our [Canvas page](https://canvas.colorado.edu/courses/80449) (sign in via the CU SSO)
 
@@ -10,7 +10,7 @@ Requires **prerequisite** course of APPM 4440 "Real Analysis" (minimum grade C-)
 
 For graduate students, there is no enforced prereq, but we suggest mathematical maturity and hopefully an undergraduate or graduate class in analysis, as this is a proofs-based math class.  Familiarity with linear algebra and probability is assumed, and some familiarity with machine learning (like CSCI 5622) is nice but not essential.
 
-This class is expected to meet in person most of the time, though this may change due to the COVID-19 situation. The semester is starting remotely due to the Marshall Fire from December 2021.
+This class is expected to meet in person most of the time, though this may change due to the COVID-19 situation.
 
 ## Instructor and contact Information
 
@@ -31,8 +31,8 @@ During times when the class is remote, we will meet via zoom (link is on Canvas)
 
 Times:
 
-- Wed 4-5:30 PM
-- Thu 3-4:30 PM
+- TBD
+- TBD
 
 There is no TA
 
@@ -97,9 +97,9 @@ If we enable private chat on zoom, remember that the zoom host can later see eve
 
 
 ### Dropping the Course
-Advice from your department advisor is recommended before dropping any course. After 11:59 PM Wed Jan. 26, dropping a course results in a "W" on your transcript and you’ll be billed for tuition. After 11:59 PM Fri March. 18, dropping the course is possible only with a petition approved by the Dean’s office.
+Advice from your department advisor is recommended before dropping any course. After 11:59 PM Jan. 31, dropping a course results in a "W" on your transcript and you’ll be billed for tuition. After 11:59 PM March 22, dropping the course is possible only with a petition approved by the Dean’s office.
 
-(The last day to *add* a class is Wed Jan. 19)
+(The last day to *add* a class is Wed Jan. 24)
 
 # Generic policies
 For classroom behavior, requirements for COVID-19, accommodation for disabilities, preferred student names and pronouns, honor code, sexual misconduct/discrimination/harassment/retaliation and religious holidays, please refer to the policies document posted on Canvas.
@@ -190,4 +190,8 @@ We mostly follow the Shalev-Shwartz and Ben-David book, skipping a few chapters 
 7. Computational Complexity models (Turing Machines; see Scott Aaronson book)
 8. Ch 8: Computational Complexity of learning
 9. Ch 14: Stochastic Gradient Descent
+10. More stats, e.g., Expectation Maximization
+10. Variational Inference, ELBO
+11. Information Theory, information bottleneck
+11. Generative Models (GANS, Variational AutoEncoders)
 10. Recent papers from the literature
