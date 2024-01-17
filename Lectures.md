@@ -1,7 +1,9 @@
-# Day by day lecture schedule, spring 2022
-Theoretical Machine Learning (4490/5490) class, Spring 2022, at CU Boulder
+# Day by day lecture schedule, spring 2024
+Theoretical Machine Learning (4490/5490) class, Spring 2024, at CU Boulder
 
-Details on what we covered in spring 2020 at [Lectures2020.md](Lectures2020.md).
+Details on what we covered in previous semesters:
+- spring 2020 at [Lectures2020.md](Lectures2020.md)
+- spring 2022 at [Lectures2020.md](Lectures2022.md)
 
 Abbreviations for sources:
 - [SSS] is Shai Shalev-Shwartz and Shai Ben-David's [Understanding Machine Learning](https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/)
@@ -16,9 +18,15 @@ Statistical Learning](https://web.stanford.edu/~hastie/ElemStatLearn/) by Hastie
 - [Puterman] is Martin Puterman's [Markov Decision Processes: Discrete Stochastic Dynamic Programming](https://dl.acm.org/doi/book/10.5555/528623) (1994, John Wiley)
 
 
+### Week 1. Ch 1, 2, 3 [SSS]
+- [Mon 1/15/2024] No school (MLK day)
+- [Wed 1/17/2024] **Introduction**, ch 1 [SSS], parts of ch 1.3 [Mohri]. What is ML, compare to other types of learning, types of learning (supervised, etc.), standard tasks, papaya example, inductive bias and generalization. Start on lecture 1
+
+
+# Below is old stuff from 2022
 
 ### Week 1.  Ch 1, 2, 3 [SSS]
-- [Mon 1/10] **Introduction**, ch 1 [SSS], parts of ch 1.3 [Mohri]. What is ML, compare to other types of learning, types of learning (supervised, etc.), standard tasks, papaya example, inductive bias and generalization. Start on lecture 1
+- [Mon 1/10/2022] **Introduction**, ch 1 [SSS], parts of ch 1.3 [Mohri]. What is ML, compare to other types of learning, types of learning (supervised, etc.), standard tasks, papaya example, inductive bias and generalization. Start on lecture 1
 - [Wed 1/12] Finish lecture 1, do lecture 2, and start lecture 3 (up to axis-aligned rectangles)
 - [Fri 1/14] (asynchronous) PAC learning, agnostic PAC learning, analysis of finite hypothesis class. Lecture notes 4 and 5
 
