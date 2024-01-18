@@ -10,8 +10,6 @@ Requires **prerequisite** course of APPM 4440 "Real Analysis" (minimum grade C-)
 
 For graduate students, there is no enforced prereq, but we suggest mathematical maturity and hopefully an undergraduate or graduate class in analysis, as this is a proofs-based math class.  Familiarity with linear algebra and probability is assumed, and some familiarity with machine learning (like CSCI 5622) is nice but not essential.
 
-This class is expected to meet in person most of the time, though this may change due to the COVID-19 situation.
-
 ## Instructor and contact Information
 
 - The instructor is [Stephen Becker](http://amath.colorado.edu/faculty/becker/), Associate Professor of Applied Mathematics
@@ -31,8 +29,8 @@ During times when the class is remote, we will meet via zoom (link is on Canvas)
 
 Times:
 
-- TBD
-- TBD
+- Wed 4-5
+- Thurs 3-5
 
 There is no TA
 
