@@ -20,8 +20,14 @@ Statistical Learning](https://web.stanford.edu/~hastie/ElemStatLearn/) by Hastie
 
 ### Week 1. Ch 1, 2, 3 [SSS]
 - [Mon 1/15/2024] No school (MLK day)
-- [Wed 1/17/2024] **Introduction**, ch 1 [SSS], parts of ch 1.3 [Mohri]. What is ML, compare to other types of learning, types of learning (supervised, etc.), standard tasks, papaya example, inductive bias and generalization. Start on lecture 1
+- [Wed 1/17/2024] **Introduction**, ch 1 [SSS], parts of ch 1.3 [Mohri]. What is ML, compare to other types of learning, types of learning (supervised, etc.), standard tasks, papaya example, inductive bias and generalization. See [01_Intro](Notes/01_Intro.pdf), partway through [02 More Intro and Terminology](Notes/02_MoreIntro_Terminology.pdf)
+- [Wed 1/19/2024] Continue [02 More Intro and Terminology](Notes/02_MoreIntro_Terminology.pdf), cover [03 Adding Inductive Bias](Notes/03_AddingInductiveBias.pdf) and [04 FiniteHypothesisClass and definition of PAC learning](Notes04_FiniteHypothesisClass_part1.pdf); start [05 Analysis of Finite Hypothesis Class](Notes/05_FiniteHypothesisClass_part2.pdf)
 
+### Week 2. Ch 3 [SSS]
+- [Mon 1/22/2024] Cover the key analysis in [05 Analysis of Finite Hypothesis Class](Notes/05_FiniteHypothesisClass_part2.pdf)
+- [Wed 1/24/2024] Still in [05 Analysis of Finite Hypothesis Class](Notes/05_FiniteHypothesisClass_part2.pdf), define agnostic PAC learning, and discuss different types of [convergence of random variables](https://en.wikipedia.org/wiki/Convergence_of_random_variables) (in expectation/L1, vs in probability/measure, vs almost sure). See probability handout on Canvas (todo).
+Start on [07 Uniform Convergence](Notes/07_UniformConvergence_finiteClass.pdf), defining epsilon-representative. Note: the notes [06_StatLearningTerminology.pdf](Notes/06_StatLearningTerminology.pdf) is just a cheat-sheet of terminology.
+- [Fri 1/26/2024]  TBD
 
 # Below is old stuff from 2022
 
