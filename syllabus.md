@@ -30,7 +30,7 @@ During times when the class is remote, we will meet via zoom (link is on Canvas)
 Times:
 
 - Wed 4-5
-- Thurs 3-5
+- Thurs 1-3
 
 There is no TA
 
