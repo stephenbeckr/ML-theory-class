@@ -12,10 +12,10 @@ List of homeworks:
 
 - [HW 1](APPM4490_Spr24_HW01.pdf), due Fri Jan 26 2024 at noon. Turn this in class or online via Canvas/Gradescope
 - [HW 2](APPM4490_Spr24_HW02.pdf), due Fri Feb 2 at noon. Turn this in class or online via Canvas [no need to use Gradescope as this is a very simple assignment]
-- [HW 3](APPM4490_Spr24_HW03.pdf), due Fri Feb 9 in class or online via Canvas/Gradescope at noon. Topic: Rademacher complexity.
-- [HW 4](APPM4490_Spr24_HW04.pdf), due Fri Feb 16 in class or online via Canvas/Gradescope at noon. Topic: VC dimension.
-- [HW 5](APPM4490_Spr24_HW05.pdf), due Fri Feb 23 in class or online via Canvas/Gradescope at noon. Topic: VC dimension.
-- [HW 6](APPM4490_Spr24_HW06.pdf), due Fri Mar 1 in class or online via Canvas/Gradescope at noon. Topic: boosting for probability amplification.
-- [HW 7](APPM4490_Spr24_HW07.pdf), due Fri Mar 8 in class or online via Canvas/Gradescope at noon. Topic: boosting, AdaBoost
+- [HW 3](APPM4490_Spr24_HW03.pdf), due Fri Feb 9 in class or online via Canvas/Gradescope at 11 AM. Topic: Rademacher complexity.
+- [HW 4](APPM4490_Spr24_HW04.pdf), due Fri Feb 16 in class or online via Canvas/Gradescope at 11 AM. Topic: VC dimension.
+- [HW 5](APPM4490_Spr24_HW05.pdf), due Fri Feb 23 in class or online via Canvas/Gradescope at 11 AM. Topic: VC dimension.
+- [HW 6](APPM4490_Spr24_HW06.pdf), due Fri Mar 1 in class or online via Canvas/Gradescope at 11 AM. Topic: boosting for probability amplification.
+- [HW 7](APPM4490_Spr24_HW07.pdf), due Fri Mar 8 in class or online via Canvas/Gradescope at 11 AM. Topic: boosting, AdaBoost
 - March 15, midterm exam in class, no HW due
-- [HW 8](APPM4490_Spr24_HW08.pdf), due (TBD) in class or online via Canvas/Gradescope at noon. Topic: boosting, VC dimension, Rademacher complexity
+- [HW 8](APPM4490_Spr24_HW08.pdf), due (TBD) in class or online via Canvas/Gradescope at 11 AM. Topic: boosting, VC dimension, Rademacher complexity
