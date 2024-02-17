@@ -36,6 +36,15 @@ Start on [07 Uniform Convergence](Notes/07_UniformConvergence_finiteClass.pdf), 
 
 ### Week 4. Rademacher complexity etc. [Mohri et al.]
 - [Mon 2/5/2024] [10 Intro to Rademacher Complexity](Notes/10_Intro_RademacherComplexity.pdf) introducing Rademacher complexity. We follow the Mohri text book for a lot of this.
+- [Wed 2/7/2024] Finish notes #10, start [11 Generalization via Rademacher Complexity](Notes/11_RademacherComplexity_GeneralizationBound.pdf) including McDiarmid's inequality
+- [Fri 2/9/2024] Finish notes #11, cover [12 More Rademacher, and Covering Numbers](Notes/12_RademacherComplexitySet_CoveringNumbers.pdf)
+
+### Week 5. VC dimension [SSS and Mohri et al.]
+- [Mon 2/12/2024] [15 Growth Function](Notes/15 Growth Function.pdf) and intro to [16 VC Dimension](Notes/16 VC dimension.pdf) and in-class exercises
+- [Wed 2/14/2024] More on notes #16, in-class exercises
+- [Fri 2/16/2024] Finish #16, and cover [17 Fundamental Theorem of ML](Notes/17 Fundamental Thm of ML.pdf)
+
+
 
 # Below is old stuff from 2022
 
@@ -123,7 +132,7 @@ Start on [07 Uniform Convergence](Notes/07_UniformConvergence_finiteClass.pdf), 
 
 ### Week 15. Student presentations (in 2.5 lectures)
 
-### What we didn't cover
+## What we didn't cover
 In 2020, since we were online at the end due to the pandemic, we went faster (prewritten notes) and were able to cover the following (which we didn't get to in 2022):
 
 #### Week XX. Ch 20 [SSS] on artificial Neural Networks
@@ -147,3 +156,63 @@ In 2020, since we were online at the end due to the pandemic, we went faster (pr
 
 #### Week XX, more RL
 - [Mon 4/27] Learning algorithms: very short intro on **Stochastic Approximation** as generalization of law of large numbers, and on a **super-Martingale convergence theorem**, then on **Temporal Difference TD(0)** and **Q-learning** algorithms. [PDF of notes (handwritten) about Learning Algorithms](Notes/Spring2020/ReinforcementLearning_part4.pdf)
+
+## What we hope to cover in a typical course
+(high-level)
+
+**Classical Statistical Learning Theory** We mainly focus on supervised statistical batch learning with a passive learner.
+
+1. Ch 1: Intro to class: what is it about?
+2. Ch 2: Formal models (statistical learning), Empirical Risk Minimization (ERM), finite hypothesis class
+3. Ch 3: Formal Learning model: Probably-Almost-Correct (PAC)
+4. Ch 4: Learning via Uniform Convergence (and concentration inequalities, cf Appendix B and Vershynin)
+5. Ch 5: Bias-Complexity Tradeoff, double-descent, no-free-lunch theorems
+6. Ch 6: VC-Dimension
+7. Ch 26: Rademacher Complexity (and ch 3.1 in Mohri)
+8. Ch 27: Covering Numbers
+
+**Analysis of Algorithms** As time permits, we will analyze standard algorithms.
+
+1. Ch 9: Linear predictors
+2. Ch 10: Boosting, AdaBoost
+3. Ch 11: Model selection and validation
+4. Ch 12: Convex learning problems (generalization bounds)
+5. Ch 13: Regularization and Stability
+6. Ch 15: Support Vector Machines (SVM)
+7. Ch 16: Kernel methods
+8. Ch 20: Neural Networks, expressive power, and new results about deep networks (2017–now)
+
+**Additional Topics** We will cover these as we have time (which we probably won't)
+
+1. Ch 21: Online Learning
+2. Reinforcement learning (ch 17 in Mohri)
+3. Background on Information Theory (Appendix E in Mohri)
+4. Max Entropy (ch 12 in Mohri)
+5. Ch 22: Clustering (K-means, spectral clustering, information bottleneck)
+6. Ch 7: Nonuniform Learnability
+7. Computational Complexity models (Turing Machines; see Scott Aaronson book)
+8. Ch 8: Computational Complexity of learning
+9. Ch 14: Stochastic Gradient Descent
+10. More stats, e.g., Expectation Maximization
+10. Variational Inference, ELBO
+11. Information Theory, information bottleneck
+11. Generative Models (GANS, Variational AutoEncoders)
+12. Equivariance and Invariance results; group theory
+13. Kernel methods in more detail; RKHS
+10. Recent papers from the literature
+
+**Skills** we hope students develop
+- Statistics
+  - More comfort with multivariate random variables, e.g., multivariate Gaussian
+  - Convergence of random variables
+  - Concentration inequalities
+  - When is E[ gradient f] = gradient E[ f ], etc.
+  - Cross-validation and regularization techniques; bootstrap
+  - Intro to chaining techniques
+- Basic analysis
+  - Lots of inequalities
+  - Comfort with function classes, function spaces
+- Basic optimization theory
+  - and basic stochastic processes, either algorithmic or Gaussian Processes
+- Some discrete math
+  - VC dimension calculations
