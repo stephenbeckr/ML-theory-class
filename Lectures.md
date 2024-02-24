@@ -44,6 +44,11 @@ Start on [07 Uniform Convergence](Notes/07_UniformConvergence_finiteClass.pdf), 
 - [Wed 2/14/2024] More on notes #16, in-class exercises
 - [Fri 2/16/2024] Finish #16, and cover [17 Fundamental Theorem of ML](Notes/17 Fundamental Thm of ML.pdf)
 
+### Week 6.
+- [Mon 2/19/2024] [14 (Aside) Johnson-Lindenstrauss](Notes/14 (Aside) Johnson-Lindenstrauss.pdf)
+- [Wed 2/21/2024] finish [14 (Aside) Johnson-Lindenstrauss](Notes/14 (Aside) Johnson-Lindenstrauss.pdf), talking about the chaining argument to move from finite sets to subspaces; we're not covering [13 (Aside) Dudley's Chaining](Notes/ 13 (Aside) Dudley's Chaining.pdf) so read on your own. We started [18 Linear Predictors (part 1 classification)](Notes/18 Linear Predictors (part 1 classification).pdf)
+- [Fri 2/23/2024]  Finish [18 Linear Predictors (part 1 classification)](Notes/18 Linear Predictors (part 1 classification).pdf), start [19 Linear Predictors (part 2 regression)](Notes/19 Linear Predictors (part 2 regression).pdf) and try the [Least Squares Programming Challenge](Code/LeastSquaresChallenge.ipynb)
+
 
 
 # Below is old stuff from 2022
