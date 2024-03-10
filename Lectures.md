@@ -39,16 +39,25 @@ Start on [07 Uniform Convergence](Notes/07_UniformConvergence_finiteClass.pdf), 
 - [Wed 2/7/2024] Finish notes #10, start [11 Generalization via Rademacher Complexity](Notes/11_RademacherComplexity_GeneralizationBound.pdf) including McDiarmid's inequality
 - [Fri 2/9/2024] Finish notes #11, cover [12 More Rademacher, and Covering Numbers](Notes/12_RademacherComplexitySet_CoveringNumbers.pdf)
 
-### Week 5. VC dimension [SSS and Mohri et al.]
+### Week 5. VC dimension [SSS] and [Mohri et al.]
 - [Mon 2/12/2024] [15 Growth Function](Notes/15 Growth Function.pdf) and intro to [16 VC Dimension](Notes/16 VC dimension.pdf) and in-class exercises
 - [Wed 2/14/2024] More on notes #16, in-class exercises
 - [Fri 2/16/2024] Finish #16, and cover [17 Fundamental Theorem of ML](Notes/17 Fundamental Thm of ML.pdf)
 
-### Week 6.
+### Week 6. Johnson Lindenstrauss and ch 9 of [SSS] on linear predictors
 - [Mon 2/19/2024] [14 (Aside) Johnson-Lindenstrauss](Notes/14 (Aside) Johnson-Lindenstrauss.pdf)
-- [Wed 2/21/2024] finish [14 (Aside) Johnson-Lindenstrauss](Notes/14 (Aside) Johnson-Lindenstrauss.pdf), talking about the chaining argument to move from finite sets to subspaces; we're not covering [13 (Aside) Dudley's Chaining](Notes/ 13 (Aside) Dudley's Chaining.pdf) so read on your own. We started [18 Linear Predictors (part 1 classification)](Notes/18 Linear Predictors (part 1 classification).pdf)
+- [Wed 2/21/2024] finish [14 (Aside) Johnson-Lindenstrauss](Notes/14 (Aside) Johnson-Lindenstrauss.pdf), talking about the chaining argument to move from finite sets to subspaces; we're not covering [13 (Aside) Dudley's Chaining](Notes/ 13 (Aside) Dudley's Chaining.pdf) so read on your own. We started ch 9 of [SSS]: [18 Linear Predictors (part 1 classification)](Notes/18 Linear Predictors (part 1 classification).pdf), cover binary predictors, introduce linear programs and discuss their complexity. Discuss ERM of binary classification (tractable iff separable).
 - [Fri 2/23/2024]  Finish [18 Linear Predictors (part 1 classification)](Notes/18 Linear Predictors (part 1 classification).pdf), start [19 Linear Predictors (part 2 regression)](Notes/19 Linear Predictors (part 2 regression).pdf) and try the [Least Squares Programming Challenge](Code/LeastSquaresChallenge.ipynb)
 
+### Week 7. Linear predictors, ch 10 of [SSS] on boosting
+- [Mon 2/26/2024] Finish [# 19](Notes/19 Linear Predictors (part 2 regression).pdf); pseudo-dimension bounds (11.2.3 Mohri) for regression problems
+- [Wed 2/28/2024] Cover [20 Linear Predictors (part 3 logistic regression).pdf](Notes/20 Linear Predictors (part 3 logistic regression).pdf). Logistic regression and GLM; derive loss function based on maximum likelihood; discuss log-sum-exp trick (e.g., `numpy.logaddexp` and `numpy.log1p`)
+- [Fri 3/1/2024]. Start [21 Boosting.pdf](Notes/21 Boosting.pdf). gamma-weak-learners, motivate need for boosting; example with 3-piece classifier and decision stump (10.1 in SS), and complexity of computing ERM of decision stumps.
+
+### Week 8. Finish boosting, start model selection/validation (ch 11 of [SSS])
+- [Mon 3/4/2024] Continue on #21, complexity of sorting, top-k problems, median finding, shuffling (Fisher-Yates-Knuth shuffle). Comparison to Bootstrap and Bagging. Start [22 AdaBoost.pdf](Notes/22 AdaBoost.pdf)
+- [Wed 3/6/2024] Class canceled
+- [Fri 3/8/2024] Finish #22 on AdaBoost, analysis of training error convergence. Start #23...
 
 
 # Below is old stuff from 2022
@@ -158,6 +167,9 @@ In 2020, since we were online at the end due to the pandemic, we went faster (pr
 - [Wed 4/22] Theoretical background on optimality and **state-action value function Q**, eventually deriving the **Bellman Equations**. [PDF of notes (handwritten) about Bellman Equations](Notes/Spring2020/ReinforcementLearning_part2.pdf)
 
 - [Fri 4/24] (Note: for the next three classes, there are presentations, but still two lectures) **Planning algorithms** (aka **dynamic programming**) including **value iteration** (and variants like Gauss-Seidel), **policy iteration** (and variants, like modified policy iteration), and **linear programming** formulation. [PDF of notes (handwritten) about Planning Algoriths](Notes/Spring2020/ReinforcementLearning_part3.pdf)
+
+
+*NOTE* in 2024, Ashutosh Trivedi is teaching a special topics course on Reinforcement Learning in the CS dept (CSCI 4831/7000)
 
 #### Week XX, more RL
 - [Mon 4/27] Learning algorithms: very short intro on **Stochastic Approximation** as generalization of law of large numbers, and on a **super-Martingale convergence theorem**, then on **Temporal Difference TD(0)** and **Q-learning** algorithms. [PDF of notes (handwritten) about Learning Algorithms](Notes/Spring2020/ReinforcementLearning_part4.pdf)
