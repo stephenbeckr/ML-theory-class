@@ -20,5 +20,8 @@ What we cover:
 
 # Student projects
 
+Spring 2022:
+[![image for spring 2022](SlideshowAllPresentations_4490_Spring22.jpg)](SlideshowAllPresentations_4490_Spring22.pdf)
+
 Spring 2020:
 [![image for spring 2020](SlideshowAllPresentations_7400Spr20_MLTheory.jpg)](SlideshowAllPresentations_7400Spr20_MLTheory.pdf)
