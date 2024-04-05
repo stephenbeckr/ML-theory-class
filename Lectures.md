@@ -40,27 +40,27 @@ Start on [07 Uniform Convergence](Notes/07_UniformConvergence_finiteClass.pdf), 
 - [Fri 2/9/2024] Finish notes #11, cover [12 More Rademacher, and Covering Numbers](Notes/12_RademacherComplexitySet_CoveringNumbers.pdf)
 
 ### Week 5. VC dimension [SSS] and [Mohri et al.]
-- [Mon 2/12/2024] [15 Growth Function](<Notes/15 Growth Function.pdf>) and intro to [16 VC Dimension](Notes/16 VC dimension.pdf) and in-class exercises
+- [Mon 2/12/2024] [15 Growth Function](<Notes/15 Growth Function.pdf>) and intro to [16 VC Dimension](<Notes/16 VC dimension.pdf>) and in-class exercises
 - [Wed 2/14/2024] More on notes #16, in-class exercises
-- [Fri 2/16/2024] Finish #16, and cover [17 Fundamental Theorem of ML](Notes/17 Fundamental Thm of ML.pdf)
+- [Fri 2/16/2024] Finish #16, and cover [17 Fundamental Theorem of ML](<Notes/17 Fundamental Thm of ML.pdf>)
 
 ### Week 6. Johnson Lindenstrauss and ch 9 of [SSS] on linear predictors
-- [Mon 2/19/2024] [14 (Aside) Johnson-Lindenstrauss](Notes/14 (Aside) Johnson-Lindenstrauss.pdf)
-- [Wed 2/21/2024] finish [14 (Aside) Johnson-Lindenstrauss](Notes/14 (Aside) Johnson-Lindenstrauss.pdf), talking about the chaining argument to move from finite sets to subspaces; we're not covering [13 (Aside) Dudley's Chaining](Notes/ 13 (Aside) Dudley's Chaining.pdf) so read on your own. We started ch 9 of [SSS]: [18 Linear Predictors (part 1 classification)](Notes/18 Linear Predictors (part 1 classification).pdf), cover binary predictors, introduce linear programs and discuss their complexity. Discuss ERM of binary classification (tractable iff separable).
-- [Fri 2/23/2024]  Finish [18 Linear Predictors (part 1 classification)](Notes/18 Linear Predictors (part 1 classification).pdf), start [19 Linear Predictors (part 2 regression)](Notes/19 Linear Predictors (part 2 regression).pdf) and try the [Least Squares Programming Challenge](Code/LeastSquaresChallenge.ipynb)
+- [Mon 2/19/2024] [14 (Aside) Johnson-Lindenstrauss](<Notes/14 (Aside) Johnson-Lindenstrauss.pdf>)
+- [Wed 2/21/2024] finish [14 (Aside) Johnson-Lindenstrauss](<Notes/14 (Aside) Johnson-Lindenstrauss.pdf>), talking about the chaining argument to move from finite sets to subspaces; we're not covering [13 (Aside) Dudley's Chaining](<Notes/ 13 (Aside) Dudley's Chaining.pdf>) so read on your own. We started ch 9 of [SSS]: [18 Linear Predictors (part 1 classification)](<Notes/18 Linear Predictors (part 1 classification).pdf>), cover binary predictors, introduce linear programs and discuss their complexity. Discuss ERM of binary classification (tractable iff separable).
+- [Fri 2/23/2024]  Finish [18 Linear Predictors (part 1 classification)](<Notes/18 Linear Predictors (part 1 classification).pdf>), start [19 Linear Predictors (part 2 regression)](<Notes/19 Linear Predictors (part 2 regression).pdf>) and try the [Least Squares Programming Challenge](Code/LeastSquaresChallenge.ipynb)
 
 ### Week 7. Linear predictors, ch 10 of [SSS] on boosting
-- [Mon 2/26/2024] Finish [# 19](Notes/19 Linear Predictors (part 2 regression).pdf); pseudo-dimension bounds (11.2.3 Mohri) for regression problems
-- [Wed 2/28/2024] Cover [20 Linear Predictors (part 3 logistic regression).pdf](Notes/20 Linear Predictors (part 3 logistic regression).pdf). Logistic regression and GLM; derive loss function based on maximum likelihood; discuss log-sum-exp trick (e.g., `numpy.logaddexp` and `numpy.log1p`)
-- [Fri 3/1/2024]. Start [21 Boosting.pdf](Notes/21 Boosting.pdf). gamma-weak-learners, motivate need for boosting; example with 3-piece classifier and decision stump (10.1 in SS), and complexity of computing ERM of decision stumps.
+- [Mon 2/26/2024] Finish [# 19](<Notes/19 Linear Predictors (part 2 regression).pdf>); pseudo-dimension bounds (11.2.3 Mohri) for regression problems
+- [Wed 2/28/2024] Cover [20 Linear Predictors (part 3 logistic regression).pdf](<Notes/20 Linear Predictors (part 3 logistic regression).pdf>). Logistic regression and GLM; derive loss function based on maximum likelihood; discuss log-sum-exp trick (e.g., `numpy.logaddexp` and `numpy.log1p`)
+- [Fri 3/1/2024]. Start [21 Boosting.pdf](<Notes/21 Boosting.pdf>). gamma-weak-learners, motivate need for boosting; example with 3-piece classifier and decision stump (10.1 in SS), and complexity of computing ERM of decision stumps.
 
 ### Week 8. Finish boosting, start model selection/validation (ch 11 of [SSS])
-- [Mon 3/4/2024] Continue on #21, complexity of sorting, top-k problems, median finding, shuffling (Fisher-Yates-Knuth shuffle). Comparison to Bootstrap and Bagging. Start [22 AdaBoost.pdf](Notes/22 AdaBoost.pdf)
+- [Mon 3/4/2024] Continue on #21, complexity of sorting, top-k problems, median finding, shuffling (Fisher-Yates-Knuth shuffle). Comparison to Bootstrap and Bagging. Start [22 AdaBoost.pdf](<Notes/22 AdaBoost.pdf>)
 - [Wed 3/6/2024] Class canceled
-- [Fri 3/8/2024] Finish #22 on AdaBoost, analysis of training error convergence. Start [#23 Model Selection and Validation](Notes/23 Model Selection and Validation.pdf)
+- [Fri 3/8/2024] Finish #22 on AdaBoost, analysis of training error convergence. Start [#23 Model Selection and Validation](<Notes/23 Model Selection and Validation.pdf>)
 
 ### Week 9. Model Selection and Validation, and midterm
-- [Mon 3/11/2024] Continue on [#23 Model Selection and Validation](Notes/23 Model Selection and Validation.pdf). Overall topics this week and next:
+- [Mon 3/11/2024] Continue on [#23 Model Selection and Validation](<Notes/23 Model Selection and Validation.pdf>). Overall topics this week and next:
   1. Structured Risk Minimization (SRM). Ref: [SSS]
   2. Validation set (the test/train/validation split), Bonferroni correction
   3. Mallow's C_p / Unbiased Predictive Risk Estimate (UPRE); and Stein's Unbiased Risk Estimate (SURE)
@@ -79,20 +79,20 @@ Start on [07 Uniform Convergence](Notes/07_UniformConvergence_finiteClass.pdf), 
 
 ### Week 10. Model Selection and Validation
 - [Mon 3/18/2024] Midterm
-- [Wed 3/20/2024] Continue on [#23 Model Selection and Validation](Notes/23 Model Selection and Validation.pdf) and start [#24 More Model Selection and Validation](Notes/24 More Model Selection and Validation.pdf)
-- [Fri 3/22/2024] Continue on [#24 More Model Selection and Validation](Notes/24 More Model Selection and Validation.pdf), start [#25 More Model Selection and Validation](Notes/25 Even More Model Selection %28Bootstrap, CV, GCV%29.pdf)
+- [Wed 3/20/2024] Continue on [#23 Model Selection and Validation](<Notes/23 Model Selection and Validation.pdf>) and start [#24 More Model Selection and Validation](<Notes/24 More Model Selection and Validation.pdf>)
+- [Fri 3/22/2024] Continue on [#24 More Model Selection and Validation](<Notes/24 More Model Selection and Validation.pdf>), start [#25 More Model Selection and Validation](<Notes/25 Even More Model Selection %28Bootstrap, CV, GCV%29.pdf>)
 
 ### Spring break
 
 ### Week 11. Finish Model Selection, start optimization (ch 13 [SsS])
-- [Mon 4/1/2024] Finish [#25 More Model Selection and Validation](Notes/25 Even More Model Selection %28Bootstrap, CV, GCV%29.pdf)
-- [Wed 4/3/2024] Start [#26 Convex Learning Problems](Notes/26 Convex Learning Problems.pdf) on convex optimization
+- [Mon 4/1/2024] Finish [#25 More Model Selection and Validation](<Notes/25 Even More Model Selection %28Bootstrap, CV, GCV%29.pdf>)
+- [Wed 4/3/2024] Start [#26 Convex Learning Problems](<Notes/26 Convex Learning Problems.pdf>) on convex optimization
 - [Fri 4/5/2024] Continue on #26
-  - We're skipping [Spring2020/ch12_convexInequalities](Notes/Spring2020/ch12_convexInequalities.pdf) and [SubgradientDescent](Notes/SubgradientDescent.pdf) but read on your own if you want
+  - We're skipping [Spring2020/ch12_convexInequalities](<Notes/Spring2020/ch12_convexInequalities.pdf>) and [SubgradientDescent](<Notes/SubgradientDescent.pdf>) but read on your own if you want
 
 ### Week 12. Algorithmic Stability (ch 14 [SSS])
-- [Mon 4/8/2024] Start [Spring2020/ch13_stability_article](Notes/Spring2020/ch13_stability_article.pdf)
-- [Wed 4/10/2024] [Spring2020/ch13_stability_part2_OneNote](Notes/Spring2020/ch13_stability_part2_OneNote.pdf)
+- [Mon 4/8/2024] Start [Spring2020/ch13_stability_article](<Notes/Spring2020/ch13_stability_article.pdf>)
+- [Wed 4/10/2024] [Spring2020/ch13_stability_part2_OneNote](<Notes/Spring2020/ch13_stability_part2_OneNote.pdf>)
 
 # Below is old stuff from 2022
 
