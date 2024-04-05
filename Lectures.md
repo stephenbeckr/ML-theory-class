@@ -40,7 +40,7 @@ Start on [07 Uniform Convergence](Notes/07_UniformConvergence_finiteClass.pdf), 
 - [Fri 2/9/2024] Finish notes #11, cover [12 More Rademacher, and Covering Numbers](Notes/12_RademacherComplexitySet_CoveringNumbers.pdf)
 
 ### Week 5. VC dimension [SSS] and [Mohri et al.]
-- [Mon 2/12/2024] [15 Growth Function](Notes/15 Growth Function.pdf) and intro to [16 VC Dimension](Notes/16 VC dimension.pdf) and in-class exercises
+- [Mon 2/12/2024] [15 Growth Function](Notes/15%20Growth Function.pdf) and intro to [16 VC Dimension](Notes/16 VC dimension.pdf) and in-class exercises
 - [Wed 2/14/2024] More on notes #16, in-class exercises
 - [Fri 2/16/2024] Finish #16, and cover [17 Fundamental Theorem of ML](Notes/17 Fundamental Thm of ML.pdf)
 
