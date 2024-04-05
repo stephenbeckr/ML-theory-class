@@ -57,8 +57,42 @@ Start on [07 Uniform Convergence](Notes/07_UniformConvergence_finiteClass.pdf), 
 ### Week 8. Finish boosting, start model selection/validation (ch 11 of [SSS])
 - [Mon 3/4/2024] Continue on #21, complexity of sorting, top-k problems, median finding, shuffling (Fisher-Yates-Knuth shuffle). Comparison to Bootstrap and Bagging. Start [22 AdaBoost.pdf](Notes/22 AdaBoost.pdf)
 - [Wed 3/6/2024] Class canceled
-- [Fri 3/8/2024] Finish #22 on AdaBoost, analysis of training error convergence. Start #23...
+- [Fri 3/8/2024] Finish #22 on AdaBoost, analysis of training error convergence. Start [#23 Model Selection and Validation](Notes/23 Model Selection and Validation.pdf)
 
+### Week 9. Model Selection and Validation, and midterm
+- [Mon 3/11/2024] Continue on [#23 Model Selection and Validation](Notes/23 Model Selection and Validation.pdf). Overall topics this week and next:
+  1. Structured Risk Minimization (SRM). Ref: [SSS]
+  2. Validation set (the test/train/validation split), Bonferroni correction
+  3. Mallow's C_p / Unbiased Predictive Risk Estimate (UPRE); and Stein's Unbiased Risk Estimate (SURE)
+  4. AIC and BIC, loosely based on Hastie et al.
+  5. Adjusted R^2 / coefficient of determination
+  6. Minimum Description Length (ref: 7.8 Hastie et al. and Grunwald tutorial), coding theory, Kolmogorov complexity, minimum message length. See [A tutorial introduction to the minimum description length principle](https://arxiv.org/abs/math/0406077) (Peter Grunwald, 2004).
+  7. Morozov Discrepancy Principle (ref: 7.3 Vogel)
+  8. "L-curve" method (like elbow method), ref Vogel
+  9. Bootstrap resampling (ref: 7.11 Hastie et al.)
+  10. Cross-validation, loosely following Hastie et al.
+  11. Generalized CV (GCV), Sherman-Morrison-Woodbury / matrix inversion lemma, Neumann series. Ref: Vogel.
+
+
+- [Wed 3/13/2024] Exam review
+- [Fri 3/15/2024] Midterm planned but canceled due to snow day
+
+### Week 10. Model Selection and Validation
+- [Mon 3/18/2024] Midterm
+- [Wed 3/20/2024] Continue on [#23 Model Selection and Validation](Notes/23 Model Selection and Validation.pdf) and start [#24 More Model Selection and Validation](Notes/24 More Model Selection and Validation.pdf)
+- [Fri 3/22/2024] Continue on [#24 More Model Selection and Validation](Notes/24 More Model Selection and Validation.pdf), start [#25 More Model Selection and Validation](Notes/25 Even More Model Selection %28Bootstrap, CV, GCV%29.pdf)
+
+### Spring break
+
+### Week 11. Finish Model Selection, start optimization (ch 13 [SsS])
+- [Mon 4/1/2024] Finish [#25 More Model Selection and Validation](Notes/25 Even More Model Selection %28Bootstrap, CV, GCV%29.pdf)
+- [Wed 4/3/2024] Start [#26 Convex Learning Problems](Notes/26 Convex Learning Problems.pdf) on convex optimization
+- [Fri 4/5/2024] Continue on #26
+  - We're skipping [Spring2020/ch12_convexInequalities](Notes/Spring2020/ch12_convexInequalities.pdf) and [SubgradientDescent](Notes/SubgradientDescent.pdf) but read on your own if you want
+
+### Week 12. Algorithmic Stability (ch 14 [SSS])
+- [Mon 4/8/2024] Start [Spring2020/ch13_stability_article](Notes/Spring2020/ch13_stability_article.pdf)
+- [Wed 4/10/2024] [Spring2020/ch13_stability_part2_OneNote](Notes/Spring2020/ch13_stability_part2_OneNote.pdf)
 
 # Below is old stuff from 2022
 
