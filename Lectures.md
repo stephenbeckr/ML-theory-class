@@ -92,7 +92,12 @@ Start on [07 Uniform Convergence](Notes/07_UniformConvergence_finiteClass.pdf), 
 
 ### Week 12. Algorithmic Stability (ch 14 [SSS])
 - [Mon 4/8/2024] Start [Spring2020/ch13_stability_article](<Notes/Spring2020/ch13_stability_article.pdf>)
-- [Wed 4/10/2024] [Spring2020/ch13_stability_part2_OneNote](<Notes/Spring2020/ch13_stability_part2_OneNote.pdf>)
+- [Wed 4/10/2024] Finish lecture from last class, start and finish [Spring2020/ch13_stability_part2_OneNote](<Notes/Spring2020/ch13_stability_part2_OneNote.pdf>)
+- [Fri 4/12/2024] TBD, probably [ch14 SGD](Notes/Spring2020/ch14_SGD.pdf) (L1 convergence proof)
+
+
+Note: unlike 2022 and 2020, we'll have project presentations during our 3 hour final exam slot, freeing up an extra 3 days of lecture
+
 
 # Below is old stuff from 2022
 
@@ -233,21 +238,22 @@ In 2020, since we were online at the end due to the pandemic, we went faster (pr
 7. Ch 16: Kernel methods
 8. Ch 20: Neural Networks, expressive power, and new results about deep networks (2017–now)
 
-**Additional Topics** We will cover these as we have time (which we probably won't)
+<a name="additional"></a>**Additional Topics** We will cover these as we have time (which we probably won't)
 
 1. Ch 21: Online Learning
 2. Reinforcement learning (ch 17 in Mohri)
 3. Background on Information Theory (Appendix E in Mohri)
 4. Max Entropy (ch 12 in Mohri)
 5. Ch 22: Clustering (K-means, spectral clustering, information bottleneck)
+    - Probabilistic analysis a la [Arthur and Vassilvitskii's Kmeans++](https://theory.stanford.edu/~sergei/papers/kMeansPP-soda.pdf)
 6. Ch 7: Nonuniform Learnability
 7. Computational Complexity models (Turing Machines; see Scott Aaronson book)
 8. Ch 8: Computational Complexity of learning
-9. Ch 14: Stochastic Gradient Descent
+9. Ch 14: Stochastic Gradient Descent (*edit*: we usually cover this at least partially)
 10. More stats, e.g., Expectation Maximization
 10. Variational Inference, ELBO
 11. Information Theory, information bottleneck
-11. Generative Models (GANS, Variational AutoEncoders)
+11. Generative Models (GANS, Variational AutoEncoders, Diffusion Models)
 12. Equivariance and Invariance results; group theory
 13. Kernel methods in more detail; RKHS
 10. Recent papers from the literature
@@ -263,6 +269,7 @@ In 2020, since we were online at the end due to the pandemic, we went faster (pr
 - Basic analysis
   - Lots of inequalities
   - Comfort with function classes, function spaces
+  - Comfort with kernel methods
 - Basic optimization theory
   - and basic stochastic processes, either algorithmic or Gaussian Processes
 - Some discrete math
