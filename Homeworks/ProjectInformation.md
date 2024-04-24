@@ -1,22 +1,18 @@
 # APPM 4490/5490 Theoretical Machine Learning Final Project
 
-- The project is due at the beginning of class on Monday April 25, 2022.  The last two days of class (Mon April 25 and Wed April 27) will be used for presentations.
+- The project is due by 7:30 PM on Sunday May 5th 2024 (the start of our final exam period). The 2.5 hour final exam period from 7:30--10 PM will be used for student presentations.
   - There is no final exam
-- The project consists of a 10 minute presentation and a short paper. There is no strict length requirement for the paper, but aim for 4 to 6 pages (including figures). Paper lengths are a guideline, as I’m aware you can add figures, code, adjust white space and font to make it longer/shorter.
+- The project consists of a 5 minute presentation and a short paper. There is no strict length requirement for the paper, but aim for 4 to 6 pages (including figures). Paper lengths are a guideline, as I’m aware you can add figures, code, adjust white space and font to make it longer/shorter.
+  - We have 2.5 hours for presentations, and 25 groups, so that's 6 min/group, so aim for about a 5 min presentation and hopefully 1 min transitions
 - If you really wanted to, you could write a longer, much more detailed paper and skip the presentation
-- On Monday April 25, we will determine the presentation order. You must be ready to present that day in case you are chosen.
 - Group sizes
   - Graduate students must do the project on their own
   - Undergraduate students (i.e., anyone enrolled in 4490 not 5490) may form groups of up to 2 (and in fact groups are encouraged)
-- By Friday April 22, email me to let me know your group, so I know how many groups there are; this will help me schedule the presentations.
 - The project is 10% of your overall class grade. It cannot be dropped.
 - Deliverables:
-  - Written paper (typeset; Latex is suggested but not required), turned in via Canvas
-  - 10 minute talk
-  - Slides for the talk (turned in via Canvas)
-- More details:
-  - Class participation is extra important these days, as a sign of respect to your fellow students.  You lose 10% of your project grade if you do not attend any of these last 2 days (unless you have a valid reason, like international travel, and contacted me about it beforehand).
-  - You also lose 10% of your project grade if you are not ready to present on the day when you're scheduled to speak.
+  - Written paper (typeset; Latex is suggested but not required), turned in via Canvas/Gradescope
+  - 5 minute talk
+  - Slides for the talk (emailed directly)
 ## What is a valid project?
 - The project can be theoretical or computational (or both)
 - One option is a "traditional" class-project, where you investigate an idea, and/or run simulations or do derivations or proofs, and/or connect several different ideas (e.g., create new ideas, though the originality/impact obviously does not have to rise to the level of a journal publication);
@@ -28,6 +24,10 @@
   - You can tweak a method
   - You can redo theoretical derivations more clearly (or with more details)
   - You can do a "book-report style" analysis of a paper, critical evaluating it (think of it as a peer-review for an article)
+- You could cover topics that we did not have time to get to in the class
+  - e.g., cover a chapter from our book that we didn't get to, or...
+  - Look at other books...
+  - This [Perspectives on the State and Future of Deep Learning - 2023](https://arxiv.org/pdf/2312.09323.pdf) document (written by a collective, and which is intended to be periodically updated) has many interesting directions
 - Your results do not have to be novel; you do not need to write a journal quality paper!
 - You'll want to related your project to something you learned in the class (see Rubric item #2)
 - When in doubt about whether a project idea is valid, you can always email the instructor and ask!
