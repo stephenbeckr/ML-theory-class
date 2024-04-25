@@ -16,6 +16,7 @@ Statistical Learning](https://web.stanford.edu/~hastie/ElemStatLearn/) by Hastie
 - [Murphy] is Kevin Murphy's [Machine Learning: a Probabilistic Perspective](https://www.cs.ubc.ca/~murphyk/MLbook/) (2012, MIT press)
 - [SuttonBarto] is Richard Sutton and Andrew Barto's [Reinforcement Learning: An Introduction](http://incompleteideas.net/book/the-book-2nd.html) (2018, 2nd edition)
 - [Puterman] is Martin Puterman's [Markov Decision Processes: Discrete Stochastic Dynamic Programming](https://dl.acm.org/doi/book/10.5555/528623) (1994, John Wiley)
+- [Fasshauer] is [Kernel-based approximation methods using Matlab](https://www.worldscientific.com/worldscibooks/10.1142/9335) by G Fasshauer and M McCourt (World Scientific, 2015)
 
 
 ### Week 1. Ch 1, 2, 3 [SSS]
@@ -84,20 +85,34 @@ Start on [07 Uniform Convergence](Notes/07_UniformConvergence_finiteClass.pdf), 
 
 ### Spring break
 
-### Week 11. Finish Model Selection, start optimization (ch 13 [SsS])
+### Week 11. Finish Model Selection, start optimization (ch 12, 13 [SsS])
 - [Mon 4/1/2024] Finish [#25 More Model Selection and Validation](<Notes/25 Even More Model Selection %28Bootstrap, CV, GCV%29.pdf>)
 - [Wed 4/3/2024] Start [#26 Convex Learning Problems](<Notes/26 Convex Learning Problems.pdf>) on convex optimization
 - [Fri 4/5/2024] Continue on #26
   - We're skipping [Spring2020/ch12_convexInequalities](<Notes/Spring2020/ch12_convexInequalities.pdf>) and [SubgradientDescent](<Notes/SubgradientDescent.pdf>) but read on your own if you want
 
-### Week 12. Algorithmic Stability (ch 14 [SSS])
+### Week 12. Algorithmic Stability (ch 13, 14 [SSS])
 - [Mon 4/8/2024] Start [Spring2020/ch13_stability_article](<Notes/Spring2020/ch13_stability_article.pdf>)
 - [Wed 4/10/2024] Finish lecture from last class, start and finish [Spring2020/ch13_stability_part2_OneNote](<Notes/Spring2020/ch13_stability_part2_OneNote.pdf>)
-- [Fri 4/12/2024] TBD, probably [ch14 SGD](Notes/Spring2020/ch14_SGD.pdf) (L1 convergence proof)
+- [Fri 4/12/2024] Start [ch14 SGD](Notes/Spring2020/ch14_SGD.pdf) (L1 convergence proof). Some of this is based on [Unified analysis of gradient/subgradient descent](Notes/SubgradientDescent.pdf) which we mostly skipped. Discuss L1 vs L2 convergence (convergence in mean vs quadratic mean), almost sure convergence, etc.. Discuss Stochastic Approximation (SA) vs Sample Average Approximation (SAA/ERM)
 
+
+### Week 13. SGD (ch 14 [SSS])
+- [Mon 4/15/2024] Continue SGD; discuss types of convergence of random variables (formal definitions and subtleties) and did in-class worksheet on this [SGD - Random Variable Convergence Worksheet.pdf](<Notes/SGD - Random Variable Convergence Worksheet.pdf>)
+- [Wed 4/17/2024] (In-class quiz) Continue SGD. Discuss [when you can commute expectation and gradient](<Notes/SGD - commuting gradient and expectation.pdf>)
+- [Fri 4/19/2024] Continue SGD, start [ch15 SVM](Notes/Spring2020/ch15_SVM.pdf)
+
+
+### Week 14. SVM and Kernels
+- [Mon 4/22/2024] Finish [ch15 SVM](Notes/Spring2020/ch15_SVM.pdf), start [ch16 kernels](Notes/Spring2020/ch16_kernels.pdf); (separable and non-separable cases, hard vs soft SVM, analysis without dimension dependence)
+- [Wed 4/24/2024] More on kernels. Motivation for kernels; the **kernel trick**, example with kernel ridge regression. Derivation via matrix inversion lemma.
+- [Fri 4/26/2024] Finish [ch16 kernels](Notes/Spring2020/ch16_kernels.pdf). Examples of kernels (polynomial, Gaussian, Matern). Kernel-SVM, kernel-ridge regression, kernel-PCA, nearest neighbor, kernel density estimation. Thm 16.1 Representer Thm, Lemma 16.2 (simplified Mercer's Thm), Reproducing Kernel Hilbert Spaces (RKHS). Random Fourier Features (Recht and Rahimi '07) and Bochner's theorem and the Nystrom method.
+  - Refs: mostly ch 16 in [SSS] but also some from [Murphy] and some from [Fasshauer].
+
+### Week 15. TBD
+- Start [Gaussian Processes](Notes/Spring2020/GaussianProcesses.pdf)
 
 Note: unlike 2022 and 2020, we'll have project presentations during our 3 hour final exam slot, freeing up an extra 3 days of lecture
-
 
 # Below is old stuff from 2022
 
