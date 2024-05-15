@@ -110,7 +110,8 @@ Start on [07 Uniform Convergence](Notes/07_UniformConvergence_finiteClass.pdf), 
   - Refs: mostly ch 16 in [SSS] but also some from [Murphy] and some from [Fasshauer].
 
 ### Week 15. TBD
-- Start [Gaussian Processes](Notes/Spring2020/GaussianProcesses.pdf)
+- [Mon 4/29/2024] Finish RKHS intro, then start [Gaussian Processes](Notes/Spring2020/GaussianProcesses.pdf) on GPs for regression, Bayesian setup, estimation and forecasting, facts about Gaussians
+- [Wed 5/1/2024] (Last day of class) Finish Gaussian Processes.
 
 Note: unlike 2022 and 2020, we'll have project presentations during our 3 hour final exam slot, freeing up an extra 3 days of lecture
 
