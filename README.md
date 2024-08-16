@@ -20,6 +20,9 @@ What we cover:
 
 # Student projects
 
+Spring 2024:
+[![image for spring 2024](SlideshowAllPresentations_4490_Spring24.jpg)](SlideshowAllPresentations_4490_Spring24.pdf)
+
 Spring 2022:
 [![image for spring 2022](SlideshowAllPresentations_4490_Spring22.jpg)](SlideshowAllPresentations_4490_Spring22.pdf)
 
