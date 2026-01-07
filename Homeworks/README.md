@@ -10,6 +10,9 @@
 
 List of homeworks:
 
+- [HW 1](APPM4490_Spr26_HW01.pdf), due ??? 2026 at noon. Turn this in class or online via Canvas/Gradescope. Topic: TBD
+
+<!--  OLD list from 2204
 - [HW 1](APPM4490_Spr24_HW01.pdf), due Fri Jan 26 2024 at noon. Turn this in class or online via Canvas/Gradescope
 - [HW 2](APPM4490_Spr24_HW02.pdf), due Fri Feb 2 at noon. Turn this in class or online via Canvas [no need to use Gradescope as this is a very simple assignment]
 - [HW 3](APPM4490_Spr24_HW03.pdf), due Fri Feb 9 in class or online via Canvas/Gradescope at 11 AM. Topic: Rademacher complexity.
@@ -19,3 +22,4 @@ List of homeworks:
 - [HW 7](APPM4490_Spr24_HW07.pdf), due Fri Mar 8 in class or online via Canvas/Gradescope at 11 AM. Topic: boosting, AdaBoost
 - March 15, midterm exam in class, no HW due (this was actually March 18, due to a snow day)
 - [HW 8](APPM4490_Spr24_HW08.pdf), due Fri Apr 5 in class or online via Canvas/Gradescope at 11 AM. Topic: more PAC learning
+-->
