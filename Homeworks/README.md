@@ -6,7 +6,8 @@
   - You do *not* have to use latex! Only if you really want to.
 - Homework solutions are on Canvas
 - Old homeworks from Spring 2020 are in the [OldHW_spring2020](OldHW_spring2020) folder
-- Old homeworks from Spring 2020 are in the [OldHW_spring2022](OldHW_spring2022) folder
+- Old homeworks from Spring 2022 are in the [OldHW_spring2022](OldHW_spring2022) folder
+- Old homeworks from Spring 2024 are in the [OldHW_spring2024](OldHW_spring2024) folder
 
 List of homeworks:
 
