@@ -1,8 +1,8 @@
 # Policies and syllabus
 
-APPM 4490/5490 Theory of Machine Learning.  University of Colorado Boulder, Spring 2024.
+APPM 4490/5490 Theory of Machine Learning.  University of Colorado Boulder, Spring 2026.
 
-More class info (grades, discrimination policies, secret zoom link, piazza link, etc.) are on our [Canvas page](https://canvas.colorado.edu/courses/80449) (sign in via the CU SSO)
+More class info (grades, discrimination policies, secret zoom link, piazza link, etc.) are on our [Canvas page](https://canvas.colorado.edu/courses/133940) (sign in via the CU SSO)
 
 [Catalog description](https://catalog.colorado.edu/search/?search=APPM+4490): Presents the underlying theory behind machine learning in proofs-based format. Answers fundamental questions about what learning means and what can be learned via formal models of statistical learning theory. Analyzes some important classes of machine learning methods. Specific topics may include the PAC framework, VC-dimension and Rademacher complexity.
 
@@ -20,17 +20,14 @@ For graduate students, there is no enforced prereq, but we suggest mathematical 
 ### Meeting times and location
 Meeting time: MWF 11:15 AM - 12:05 AM
 
-Location: ECCR 135 (Engineering Center)
-
-During times when the class is remote, we will meet via zoom (link is on Canvas)
+Location: ECCR 151 (Engineering Center)
 
 ### Office Hours
 3 hours per week, held in a hybrid fashion: attend the physical office (338 ECOT) or via zoom (link is posted in Canvas)
 
 Times:
 
-- Wed 4-5
-- Thurs 1-3
+TBD
 
 There is no TA
 
@@ -50,7 +47,8 @@ There will be homeworks, due either weekly or bi-weekly. You are allowed to drop
 - 10% Midterm (in class)
 - 10% Final Project (open-ended)
 
-**There is no in-class final exam.**
+**There is no in-class final exam.**  However, we will do student project presentations during our final exam time.
+- Our final exam slot is 1:30 PM to 4 PM on Tuesday, April 28 2026
 
 The overall grade may be **curved** as appropriate (not guaranteed), but note that there is no set "quota" of A's, B's, etc., so you are not directly competing with your classmates.
 
@@ -79,28 +77,42 @@ Cheating is not usually an issue in this class, and I have faith that students w
 
 We will use [github](https://github.com/stephenbeckr/ML-theory-class) for public content (notes, demos, syllabus), and use CU's default LMT **Canvas** for private content like grades and homework solutions.  Canvas will also be used to organize things, like any recorded lectures, comments made via **Gradescope**, and Q&A forums via **piazza**.
 
-### Online behavior
-The class is intended to be in person most of the time, but we will use zoom for the first two weeks and may need to switch to zoom later as well depending on COVID-19.
+### Acceptable use of AI in this class
 
-On zoom, please have your webcam on if at all possible
+Students are allowed to:
 
-- Valid reasons for not having the camera on: to protect the privacy of your family or roommate, if you cannot have a virtual background
-- Invalid reason: you don't feel like it, or you didn't wash your hair.
+- use "autocomplete" style coding assistance, like Copilot.  (*Why? because this is now as ubiquitious as spell-check, and it has become part of how people program.*) However, we strongly suggest you to use it sparingly, and to double-check!
 
-We have the same standards of behavior as we would in a classroom: appropriate attire, appropriate and not distracting virtual backgrounds, verbal and chat remarks should be respectful, etc.  Real-world backgrounds should be appropriate and professional (please, no drugs or alcohol behind you).
+- use LLMs to ask for documentation, but not with an AI that has access to your code. For example, you can google documentation and use the "AI generated summaries" provided by Google, but you cannot use Github copilot integrated with VS Code, or gemini integraded with colab (nor any context-aware chatbot).
 
-It's always important to have respectful remarks, and even more so in an online setting, since it is easier to get carried away with chat comments since you cannot see the effect on other people.
+- we **discourage** AI use whenever possible -- you don't need practice with it (it's easy!), and college is the time to practice your non-AI skills
 
-If we enable private chat on zoom, remember that the zoom host can later see even "private" chats. Inappropriate or inconsiderate remarks, even on private chats, are not allowed.
+- Tools like wolfram Alpha, Desmos, etc., are allowed unless explicitly disallowed for a particular problem, but we discourage their use. They will **not** be allowed on the midterms, so please do not get reliant on them.
+
+Students are **not allowed** to:
+
+- explicitly asking a LLM, like ChatGPT/Claude..., to **solve** anything for you. This covers both code and math.
+  - For example, putting in the text of a homework problem and asking a LLM to generate the solution (or code) is not allowed.
+
+#### Enforcement
+For any major assignment (homework, or take-home exam if relevant), the instructor reserves the right to randomly check students, and/or check students with suspicious work.  If a student is checked, they will need to do a live session with the instructor (either live-coding if it is coding related, or a whiteboard session if it is math related) so that the instructor can ask the student questions or give them tasks.
+
+#### Consequences of violating policy
+
+- First-time minor violations of the AI policy will result in losing points on the specific problem; the amount of points lost is up to instructor discretion, depending on the severity of the infraction
+
+- Major violations, or repeat violations, will result in a 0 on the entire relevant assignment
+
+- Egregious and/or repeated major violations will result in failing the class
 
 
 ### Dropping the Course
-Advice from your department advisor is recommended before dropping any course. After 11:59 PM Jan. 31, dropping a course results in a "W" on your transcript and you’ll be billed for tuition. After 11:59 PM March 22, dropping the course is possible only with a petition approved by the Dean’s office.
+Advice from your department advisor is recommended before dropping any course. After 11:59 PM Jan. 23 2026, dropping a course results in a "W" on your transcript and you’ll be billed for tuition. After 11:59 PM March 24 2026, dropping the course is possible only with a petition approved by the Dean’s office.
 
-(The last day to *add* a class is Wed Jan. 24)
+(The last day to *add* a class is Wed Jan. 16 2026)
 
 # Generic policies
-For classroom behavior, requirements for COVID-19, accommodation for disabilities, preferred student names and pronouns, honor code, sexual misconduct/discrimination/harassment/retaliation and religious holidays, please refer to the policies document posted on Canvas.
+For classroom behavior, requirements for COVID-19, accommodation for disabilities, preferred student names and pronouns, honor code, sexual misconduct/discrimination/harassment/retaliation and religious holidays, please refer to the [generic_policies](generic_policies.md) document.
 
 
 # Syllabus
