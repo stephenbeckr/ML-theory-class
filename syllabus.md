@@ -144,6 +144,11 @@ While we won't make much use of them, there are lots of other good mathematical 
 - “Introduction to Statistical Learning Theory,” Bousquet, Boucheron and Lugosi (2003). 39 pages. Available on the [internet](http://www.econ.upf.edu/~lugosi/mlss_slt.pdf), including via [SpringerLink](https://link.springer.com/chapter/10.1007/978-3-540-28650-9_8).
 - “The Nature of Statistical Learning Theory,” Vapnik, 2nd edition (2000). Available via [SpringerLink](https://link.springer.com/book/10.1007%2F978-1-4757-3264-1).
 
+As well as newer texts that often cover the above standard material and also try to add what (little) theory is known about tight characterizations of deep nets:
+- [The Principles of Deep Learning Theory](https://arxiv.org/pdf/2106.10165) by Daniel A. Roberts and Sho Yaida, 2021, based on research in collaboration with Boris Hanin
+- [STATS214 / CS229M: Machine Learning Theory](https://web.stanford.edu/class/stats214/) at Stanford, 2021, with [github notes](https://github.com/tengyuma/cs229m_notes/blob/main/master.pdf) by Tengyu Ma 2022.
+- [Learning Theory from First Principles](https://www.di.ens.fr/~fbach/ltfp_book.pdf) by Francis Bach, 2024
+
 
 ### Principal Topics
 PAC framework, VC-dimension, Rademacher complexity, bias-variance tradeoffs, no-free lunch theorems, model selection, boosting, expressive power
