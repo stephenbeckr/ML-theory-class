@@ -42,10 +42,10 @@ This is a lecture-based course, and the instructor will present proofs. The text
 There will be homeworks, due either weekly or bi-weekly. You are allowed to drop one homework (this will be done automatically).  
 
 ### Grading
-- 80% homeworks.
+- 60% homeworks.
   - Late homework is not accepted, but you are allowed one free "dropped" homework. Your lowest-scoring homework will be automatically dropped. See below for caveat
-- 10% Midterm (in class)
-- 10% Final Project (open-ended)
+- 20% Midterm (in class)
+- 20% Final Project (open-ended)
 
 **There is no in-class final exam.**  However, we will do student project presentations during our final exam time.
 - Our final exam slot is 1:30 PM to 4 PM on Tuesday, April 28 2026
