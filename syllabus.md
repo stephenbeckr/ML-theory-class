@@ -152,6 +152,11 @@ As well as newer texts that often cover the above standard material and also try
 - [STATS214 / CS229M: Machine Learning Theory](https://web.stanford.edu/class/stats214/) at Stanford, 2021, with [github notes](https://github.com/tengyuma/cs229m_notes/blob/main/master.pdf) by Tengyu Ma 2022.
 - [Learning Theory from First Principles](https://www.di.ens.fr/~fbach/ltfp_book.pdf) by Francis Bach, 2024
 
+#### Probability background
+Various [lecture notes by Joel Tropp](https://tropp.caltech.edu/courses.html) may be useful:
+- [Probability Theory and Computational Mathematics](https://tropp.caltech.edu/notes/Tro24-Probability-Theory-LN.pdf) for probability background (and more) and basic measure theory
+- [Probability in High Dimensions](https://tropp.caltech.edu/notes/Tro21-Probability-High-LN-corr.pdf) for inequalities and concentration
+
 
 ### Principal Topics
 PAC framework, VC-dimension, Rademacher complexity, bias-variance tradeoffs, no-free lunch theorems, model selection, boosting, expressive power
