@@ -27,9 +27,12 @@ Location: ECCR 151 (Engineering Center)
 
 Times:
 
-TBD
+- Mondays, 3-4 PM
+- Tuesdays, 10 AM to noon
 
 There is no TA
+
+Homework is due Wednesdays at noon
 
 ### Estimated Workload
 This is intended to have less of a workload than a core class, though it will depend a lot on the student's background. This is a three credit course (the standard kind of course).

@@ -25,9 +25,9 @@ Statistical Learning](https://web.stanford.edu/~hastie/ElemStatLearn/) by Hastie
 - [Fri 1/9/2026] **Introduction**, ch 1 [SSS], parts of ch 1.3 [Mohri]. What is ML, compare to other types of learning, types of learning (supervised, etc.), standard tasks, papaya example, inductive bias and generalization. See [01_Intro](Notes/01_Intro.pdf), partway through [02 More Intro and Terminology](Notes/02_MoreIntro_Terminology.pdf)
 
 ### Week 2. Ch 1, 2, 3 [SSS] and Finite Hypothesis Class
-- [Mon 1/12/2026] Continue [02 More Intro and Terminology](Notes/02_MoreIntro_Terminology.pdf), cover [03 Adding Inductive Bias](Notes/03_AddingInductiveBias.pdf) and [04 FiniteHypothesisClass and definition of PAC learning](Notes04_FiniteHypothesisClass_part1.pdf); start [05 Analysis of Finite Hypothesis Class](Notes/05_FiniteHypothesisClass_part2.pdf)
-- [Wed 1/24/2026] Cover the key analysis in [05 Analysis of Finite Hypothesis Class](Notes/05_FiniteHypothesisClass_part2.pdf)
-- [Fri 1/16/2026] Still in [05 Analysis of Finite Hypothesis Class](Notes/05_FiniteHypothesisClass_part2.pdf), define agnostic PAC learning, and discuss different types of [convergence of random variables](https://en.wikipedia.org/wiki/Convergence_of_random_variables) (in expectation/L1, vs in probability/measure, vs almost sure). See probability handout on Canvas (todo).
+- [Mon 1/12/2026] Continue [02 More Intro and Terminology](Notes/02_MoreIntro_Terminology.pdf), cover [03 Adding Inductive Bias](Notes/03_AddingInductiveBias.pdf)
+- [Wed 1/24/2026] Cover [04 FiniteHypothesisClass and definition of PAC learning](Notes04_FiniteHypothesisClass_part1.pdf), then the key analysis in [05 Analysis of Finite Hypothesis Class](Notes/05_FiniteHypothesisClass_part2.pdf)
+- [Fri 1/16/2026] Finish discussion on agnostic PAC learning in [05 Analysis of Finite Hypothesis Class](Notes/05_FiniteHypothesisClass_part2.pdf), define agnostic PAC learning, and discuss different types of [convergence of random variables](https://en.wikipedia.org/wiki/Convergence_of_random_variables) (in expectation/L1, vs in probability/measure, vs almost sure). See probability handout on Canvas (todo).
 Start on [07 Uniform Convergence](Notes/07_UniformConvergence_finiteClass.pdf), defining epsilon-representative. 
   - Note: the notes [06 StatLearningTerminology.pdf](Notes/06_StatLearningTerminology.pdf) is just a cheat-sheet of terminology, and [06a Big-Onotation.pdf](Notes/06a_Big-Onotation.pdf) is a review of [big-O notation](https://en.wikipedia.org/wiki/Big_O_notation).
 
