@@ -27,27 +27,28 @@ Statistical Learning](https://web.stanford.edu/~hastie/ElemStatLearn/) by Hastie
 ### Week 2. Ch 1, 2, 3 [SSS] and Finite Hypothesis Class
 - [Mon 1/12/2026] Continue [02 More Intro and Terminology](Notes/02_MoreIntro_Terminology.pdf), cover [03 Adding Inductive Bias](Notes/03_AddingInductiveBias.pdf)
 - [Wed 1/24/2026] Cover [04 FiniteHypothesisClass and definition of PAC learning](Notes04_FiniteHypothesisClass_part1.pdf), then the key analysis in [05 Analysis of Finite Hypothesis Class](Notes/05_FiniteHypothesisClass_part2.pdf)
-- [Fri 1/16/2026] Finish discussion on agnostic PAC learning in [05 Analysis of Finite Hypothesis Class](Notes/05_FiniteHypothesisClass_part2.pdf), define agnostic PAC learning, and discuss different types of [convergence of random variables](https://en.wikipedia.org/wiki/Convergence_of_random_variables) (in expectation/L1, vs in probability/measure, vs almost sure). See probability handout on Canvas (todo).
-Start on [07 Uniform Convergence](Notes/07_UniformConvergence_finiteClass.pdf), defining epsilon-representative. 
-  - Note: the notes [06 StatLearningTerminology.pdf](Notes/06_StatLearningTerminology.pdf) is just a cheat-sheet of terminology, and [06a Big-Onotation.pdf](Notes/06a_Big-Onotation.pdf) is a review of [big-O notation](https://en.wikipedia.org/wiki/Big_O_notation).
+- [Fri 1/16/2026] Finish discussion on agnostic PAC learning in [05 Analysis of Finite Hypothesis Class](Notes/05_FiniteHypothesisClass_part2.pdf), define agnostic PAC learning.
+  - Did in class exercise on different notions of convergence for functions (e.g., pointwise, uniform, L^p)
+  - Later, we will discuss different types of [convergence of random variables](https://en.wikipedia.org/wiki/Convergence_of_random_variables) (in expectation/L1, vs in probability/measure, vs almost sure). See probability handout on Canvas (todo)
+
+### Week 3. Ch 4 [SSS] on uniform convergence
+
+- [Mon 1/19/2026] No class due to MLK Jr holiday
+
+- [Wed 1/21/2026] In-class exercise on [06a Big-O notation.pdf](Notes/06a_Big-Onotation.pdf) (more details at [wikipedia's big-O notation](https://en.wikipedia.org/wiki/Big_O_notation)). Then start [07 Uniform Convergence](Notes/07_UniformConvergence_finiteClass.pdf), going up to Markov's inequality
+
+- [Fri 1/23/2026]  Continue on [07 Uniform Convergence](Notes/07_UniformConvergence_finiteClass.pdf), proving [Hoeffding's inequality](https://en.wikipedia.org/wiki/Hoeffding%27s_inequality)
+
+  - Note: [06 StatLearningTerminology.pdf](Notes/06_StatLearningTerminology.pdf) is a cheat-sheet of terminology that may be a helpful reference
+
+### Week 4. No Free Lunch / Bias-Variance, Rademacher complexity
+- [Mon 1/26/2026] [08 No Free Lunch](Notes/8_NoFreeLunches.pdf) theorem and hence the need for some inductive bias.
 
 
 ## 2024 schedule:
 **NOTE: These are still the 2024 dates, and will be adjusted to 2026 dates gradually**
 
-### Week 1. Ch 1, 2, 3 [SSS]
-- [Mon 1/15/2024] No school (MLK day)
-- [Wed 1/17/2024] **Introduction**, ch 1 [SSS], parts of ch 1.3 [Mohri]. What is ML, compare to other types of learning, types of learning (supervised, etc.), standard tasks, papaya example, inductive bias and generalization. See [01_Intro](Notes/01_Intro.pdf), partway through [02 More Intro and Terminology](Notes/02_MoreIntro_Terminology.pdf)
-- [Wed 1/19/2024] Continue [02 More Intro and Terminology](Notes/02_MoreIntro_Terminology.pdf), cover [03 Adding Inductive Bias](Notes/03_AddingInductiveBias.pdf) and [04 FiniteHypothesisClass and definition of PAC learning](Notes04_FiniteHypothesisClass_part1.pdf); start [05 Analysis of Finite Hypothesis Class](Notes/05_FiniteHypothesisClass_part2.pdf)
 
-### Week 2. Ch 3 [SSS] Finite Hypothesis Class
-- [Mon 1/22/2024] Cover the key analysis in [05 Analysis of Finite Hypothesis Class](Notes/05_FiniteHypothesisClass_part2.pdf)
-- [Wed 1/24/2024] Still in [05 Analysis of Finite Hypothesis Class](Notes/05_FiniteHypothesisClass_part2.pdf), define agnostic PAC learning, and discuss different types of [convergence of random variables](https://en.wikipedia.org/wiki/Convergence_of_random_variables) (in expectation/L1, vs in probability/measure, vs almost sure). See probability handout on Canvas (todo).
-Start on [07 Uniform Convergence](Notes/07_UniformConvergence_finiteClass.pdf), defining epsilon-representative. Note: the notes [06 StatLearningTerminology.pdf](Notes/06_StatLearningTerminology.pdf) is just a cheat-sheet of terminology, and [06a Big-Onotation.pdf](Notes/06a_Big-Onotation.pdf) is a review of [big-O notation](https://en.wikipedia.org/wiki/Big_O_notation).
-- [Fri 1/26/2024]  Continue on [07 Uniform Convergence](Notes/07_UniformConvergence_finiteClass.pdf)
-
-### Week 3. Ch 4, 5 [SSS] Uniform Convergence / No Free Lunch / Bias-Variance
-- [Mon 1/29/2024] Continue on [07 Uniform Convergence (ch 4)](Notes/07_UniformConvergence_finiteClass.pdf), proving [Hoeffding's inequality](https://en.wikipedia.org/wiki/Hoeffding%27s_inequality). Start [08 No Free Lunch (ch 5)](Notes/8_NoFreeLunches.pdf) on No Free Lunch theorems.
 - [Wed 1/31/2024] Finish [08 No Free Lunch](Notes/8_NoFreeLunches.pdf), just barely start [9 Bias Variance Tradeoff (ch 5)](Notes/9_BiasVarianceTradeoff.pdf)
 - [Fri 2/2/2024] Finish [9 Bias Variance Tradeoff (ch 5)](Notes/9_BiasVarianceTradeoff.pdf), discussing double-descent and the [James-Stein estimator](https://en.wikipedia.org/wiki/James%E2%80%93Stein_estimator)
 
