@@ -13,6 +13,7 @@ List of homeworks:
 
 - [HW 1](APPM4490_Spr26_HW01.pdf), due Wed Jan 21 2026 at noon. Turn this in class or online via Canvas/Gradescope. Topics: intro to PAC learning
 - [HW 2](APPM4490_Spr26_HW02.pdf), due Wed Jan 28 2026 at noon. Turn this in class or online via Canvas/Gradescope. Topics: uniform convergence, measure theory/probability theory
+- [HW 3](APPM4490_Spr26_HW03.pdf), due Wed Feb 4 2026 at noon. Turn this in class or online via Canvas/Gradescope. Topics: Rademacher complexity
 
 <!--  OLD list from 2204
 - [HW 1](APPM4490_Spr24_HW01.pdf), due Fri Jan 26 2024 at noon. Turn this in class or online via Canvas/Gradescope
