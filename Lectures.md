@@ -44,6 +44,13 @@ Statistical Learning](https://web.stanford.edu/~hastie/ElemStatLearn/) by Hastie
 ### Week 4. No Free Lunch / Bias-Variance, Rademacher complexity
 - [Mon 1/26/2026] [08 No Free Lunch](Notes/8_NoFreeLunches.pdf) theorem and hence the need for some inductive bias.
 
+- [Wed 1/28/2026] [9 Bias Variance Tradeoff (ch 5)](Notes/9_BiasVarianceTradeoff.pdf), discussing double-descent and the [James-Stein estimator](https://en.wikipedia.org/wiki/James%E2%80%93Stein_estimator). Did an [in-class exercise to prove the James Stein result](Notes/09_extra_JamesStein.pdf)
+
+- [Fri 1/30/2026] [10 Intro to Rademacher Complexity](Notes/10_Intro_RademacherComplexity.pdf) introducing Rademacher complexity. We follow the Mohri text book for a lot of this. In-class exercise on sup of expectations
+
+### Week 5. Rademacher complexity
+
+See [Commuting operators](Notes/Supplement-CommutingOperators.pdf)
 
 ## 2024 schedule:
 **NOTE: These are still the 2024 dates, and will be adjusted to 2026 dates gradually**
@@ -116,7 +123,7 @@ Statistical Learning](https://web.stanford.edu/~hastie/ElemStatLearn/) by Hastie
 
 ### Week 13. SGD (ch 14 [SSS])
 - [Mon 4/15/2024] Continue SGD; discuss types of convergence of random variables (formal definitions and subtleties) and did in-class worksheet on this [SGD - Random Variable Convergence Worksheet.pdf](<Notes/SGD - Random Variable Convergence Worksheet.pdf>)
-- [Wed 4/17/2024] (In-class quiz) Continue SGD. Discuss [when you can commute expectation and gradient](<Notes/SGD - commuting gradient and expectation.pdf>)
+- [Wed 4/17/2024] (In-class quiz) Continue SGD. Discuss [when you can commute expectation and gradient](<Notes/SGD - commuting gradient and expectation.pdf>)   2026 update: see pages 2 and 3 of [Commuting operators](Notes/Supplement-CommutingOperators.pdf)
 - [Fri 4/19/2024] Continue SGD, start [ch15 SVM](Notes/Spring2020/ch15_SVM.pdf)
 
 
