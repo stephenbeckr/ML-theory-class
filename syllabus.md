@@ -42,7 +42,7 @@ This is a lecture-based course, and the instructor will present proofs. The text
 
 ### Homeworks
 
-There will be homeworks, due either weekly or bi-weekly. You are allowed to drop one homework (this will be done automatically).  
+There will be homeworks, due either weekly or bi-weekly. You are allowed to drop one homework (this will be done automatically).  Homework is due by 11 AM on Wednesdays. Turn it via Gradescope.
 
 ### Grading
 - 60% homeworks.
