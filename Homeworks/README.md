@@ -16,6 +16,7 @@ List of homeworks:
 - [HW 3](APPM4490_Spr26_HW03.pdf), due Wed Feb 4 2026 at noon. Turn this in class or online via Canvas/Gradescope. Topics: Rademacher complexity
 - [HW 4](APPM4490_Spr26_HW04.pdf), due Wed Feb 11 2026 at noon. Turn this in class or online via Canvas/Gradescope. Topics: Covering numbers, Rademacher-like complexity
 - [HW 5](APPM4490_Spr26_HW05.pdf), due Wed Feb 18 2026 at 11 AM. Turn this in class or online via Canvas/Gradescope. Topics: VC dimension.
+- [HW 6](APPM4490_Spr26_HW06.pdf), due Wed Feb 25 2026 at 11 AM. Turn this in class or online via Canvas/Gradescope. Topics: VC dimension.
 
 <!--  OLD list from 2204
 - [HW 1](APPM4490_Spr24_HW01.pdf), due Fri Jan 26 2024 at noon. Turn this in class or online via Canvas/Gradescope
