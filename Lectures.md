@@ -47,30 +47,47 @@ Statistical Learning](https://web.stanford.edu/~hastie/ElemStatLearn/) by Hastie
 - [Wed 1/28/2026] [9 Bias Variance Tradeoff (ch 5)](Notes/9_BiasVarianceTradeoff.pdf), discussing double-descent and the [James-Stein estimator](https://en.wikipedia.org/wiki/James%E2%80%93Stein_estimator). Did an [in-class exercise to prove the James Stein result](Notes/09_extra_JamesStein.pdf)
 
 - [Fri 1/30/2026] [10 Intro to Rademacher Complexity](Notes/10_Intro_RademacherComplexity.pdf) introducing Rademacher complexity. We follow the Mohri text book for a lot of this. In-class exercise on sup of expectations
+  - See [Supplemental notes: Commuting operators](Notes/Supplement-CommutingOperators.pdf) for when you can interchange operations like limit and integrals, or sup and inf, etc.
 
-### Week 5. Rademacher complexity
+### Week 5. Rademacher complexity etc. [Mohri et al.]
 
-See [Commuting operators](Notes/Supplement-CommutingOperators.pdf)
+
+
+- [Mon 2/2/2026] Finish #10, start [11 Generalization via Rademacher Complexity](Notes/11_RademacherComplexity_GeneralizationBound.pdf) getting to McDiarmid's inequality
+
+- [Wed 2/4/2026] Finish #11, then start [12 More Rademacher, and Covering Numbers](Notes/12_RademacherComplexitySet_CoveringNumbers.pdf).
+  - in class exercise: is there a difference between "bounded" and "totally bounded"?
+  - Note: we are postponing notes 13 and 14 until after we cover notes 15--17 so that we can cover VC dimension since we'll use it on the homework
+
+- [Fri 2/6/2026] Finish #12 (the covering number part), then start [15 Growth Function](<Notes/15 Growth Function.pdf>). In class exercises
+
+### Week 6. VC dimension [SSS] and [Mohri et al.]
+
+- [Mon 2/9/2026] Finish [15 Growth Function](<Notes/15 Growth Function.pdf>), intro to [16 VC Dimension](<Notes/16 VC dimension.pdf>) and in-class exercises
+
+- [Wed 2/11/2026] More on notes #16, in-class exercises on VC dimension
+
+- [Fri 2/13/2026] Finish #16, and cover [17 Fundamental Theorem of ML](<Notes/17 Fundamental Thm of ML.pdf>). In class exercises on VC dimension.
+
+### Week 7. Chaining and Johnson Lindenstrauss
+
+- [Mon 2/16/2026] Start [13 (Aside) Dudley's Chaining](<Notes/13 (Aside) Dudleys Chaining.pdf>). We didn't cover this in 2024, but we're covering it in 2026. More details on the full stochastic process version are in in Wainwright 5.3.3, Tropp's ACM 217 notes, or Vershynin's chapter 8.
+  - in class exercise: if set A is the unit ball and B is a given rectangle, what's the Minkowski sum A+B?
+
+- [Wed 2/18/2026] Finished [13 (Aside) Dudley's Chaining](<Notes/13 (Aside) Dudleys Chaining.pdf>).
+  - in class exercise: if X is uniform[0,1] and Y is uniform[10,15] and X and Y are independent, then what's the distribution of X + Y? And is this the same as the distribution that adds the PDFs together (and scales by 1/2)?  i.e., mixture model vs additive model/convolution.
+
+- [Fri 2/20/2026] [14 (Aside) Johnson-Lindenstrauss](<Notes/14 (Aside) Johnson-Lindenstrauss.pdf>).
+  - in class exercise: show that the sum of normal r.v. is still normal (without doing any integrals).  *Solution sketch: use the MGF, or the characteristic function, or the Fourier Transform.*
 
 ## 2024 schedule:
 **NOTE: These are still the 2024 dates, and will be adjusted to 2026 dates gradually**
 
 
-- [Wed 1/31/2024] Finish [08 No Free Lunch](Notes/8_NoFreeLunches.pdf), just barely start [9 Bias Variance Tradeoff (ch 5)](Notes/9_BiasVarianceTradeoff.pdf)
-- [Fri 2/2/2024] Finish [9 Bias Variance Tradeoff (ch 5)](Notes/9_BiasVarianceTradeoff.pdf), discussing double-descent and the [James-Stein estimator](https://en.wikipedia.org/wiki/James%E2%80%93Stein_estimator)
 
-### Week 4. Rademacher complexity etc. [Mohri et al.]
-- [Mon 2/5/2024] [10 Intro to Rademacher Complexity](Notes/10_Intro_RademacherComplexity.pdf) introducing Rademacher complexity. We follow the Mohri text book for a lot of this.
-- [Wed 2/7/2024] Finish notes #10, start [11 Generalization via Rademacher Complexity](Notes/11_RademacherComplexity_GeneralizationBound.pdf) including McDiarmid's inequality
-- [Fri 2/9/2024] Finish notes #11, cover [12 More Rademacher, and Covering Numbers](Notes/12_RademacherComplexitySet_CoveringNumbers.pdf)
-
-### Week 5. VC dimension [SSS] and [Mohri et al.]
-- [Mon 2/12/2024] [15 Growth Function](<Notes/15 Growth Function.pdf>) and intro to [16 VC Dimension](<Notes/16 VC dimension.pdf>) and in-class exercises
-- [Wed 2/14/2024] More on notes #16, in-class exercises
-- [Fri 2/16/2024] Finish #16, and cover [17 Fundamental Theorem of ML](<Notes/17 Fundamental Thm of ML.pdf>)
 
 ### Week 6. Johnson Lindenstrauss and ch 9 of [SSS] on linear predictors
-- [Mon 2/19/2024] [14 (Aside) Johnson-Lindenstrauss](<Notes/14 (Aside) Johnson-Lindenstrauss.pdf>)
+...
 - [Wed 2/21/2024] finish [14 (Aside) Johnson-Lindenstrauss](<Notes/14 (Aside) Johnson-Lindenstrauss.pdf>), talking about the chaining argument to move from finite sets to subspaces; we're not covering [13 (Aside) Dudley's Chaining](<Notes/13 (Aside) Dudleys Chaining.pdf>) so read on your own. We started ch 9 of [SSS]: [18 Linear Predictors (part 1 classification)](<Notes/18 Linear Predictors (part 1 classification).pdf>), cover binary predictors, introduce linear programs and discuss their complexity. Discuss ERM of binary classification (tractable iff separable).
 - [Fri 2/23/2024]  Finish [18 Linear Predictors (part 1 classification)](<Notes/18 Linear Predictors (part 1 classification).pdf>), start [19 Linear Predictors (part 2 regression)](<Notes/19 Linear Predictors (part 2 regression).pdf>) and try the [Least Squares Programming Challenge](Code/LeastSquaresChallenge.ipynb)
 
