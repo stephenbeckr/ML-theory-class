@@ -80,19 +80,23 @@ Statistical Learning](https://web.stanford.edu/~hastie/ElemStatLearn/) by Hastie
 - [Fri 2/20/2026] [14 (Aside) Johnson-Lindenstrauss](<Notes/14 (Aside) Johnson-Lindenstrauss.pdf>).
   - in class exercise: show that the sum of normal r.v. is still normal (without doing any integrals).  *Solution sketch: use the MGF, or the characteristic function, or the Fourier Transform.*
 
+### Week 8. ch 9 of [SSS] on linear predictors
+
+- [Mon 2/23/2026] Finish #14 on chaining argument for subspace; start [18 Linear Predictors (part 1 classification)](<Notes/18 Linear Predictors (part 1 classification).pdf>), cover binary predictors, introduce linear programs and discuss their complexity. Discuss ERM of binary classification (tractable iff separable).
+
+- [Wed 2/25/2026] Finish #18 (Perceptron), start [19 Linear Predictors (part 2 regression)](<Notes/19 Linear Predictors (part 2 regression).pdf>). We spent the last 30 min on laptops doing the [Least Squares Programming Challenge](Code/LeastSquaresChallenge.ipynb) (solutions are on the Solutions branch of the git repo)
+
+- [Fri 2/27/2026] Finish #19, going over the ERM methods and then discussing pseudo-dimension.
+
 ## 2024 schedule:
 **NOTE: These are still the 2024 dates, and will be adjusted to 2026 dates gradually**
 
 
 
 
-### Week 6. Johnson Lindenstrauss and ch 9 of [SSS] on linear predictors
-...
-- [Wed 2/21/2024] finish [14 (Aside) Johnson-Lindenstrauss](<Notes/14 (Aside) Johnson-Lindenstrauss.pdf>), talking about the chaining argument to move from finite sets to subspaces; we're not covering [13 (Aside) Dudley's Chaining](<Notes/13 (Aside) Dudleys Chaining.pdf>) so read on your own. We started ch 9 of [SSS]: [18 Linear Predictors (part 1 classification)](<Notes/18 Linear Predictors (part 1 classification).pdf>), cover binary predictors, introduce linear programs and discuss their complexity. Discuss ERM of binary classification (tractable iff separable).
-- [Fri 2/23/2024]  Finish [18 Linear Predictors (part 1 classification)](<Notes/18 Linear Predictors (part 1 classification).pdf>), start [19 Linear Predictors (part 2 regression)](<Notes/19 Linear Predictors (part 2 regression).pdf>) and try the [Least Squares Programming Challenge](Code/LeastSquaresChallenge.ipynb)
 
 ### Week 7. Linear predictors, ch 10 of [SSS] on boosting
-- [Mon 2/26/2024] Finish [# 19](<Notes/19 Linear Predictors (part 2 regression).pdf>); pseudo-dimension bounds (11.2.3 Mohri) for regression problems
+
 - [Wed 2/28/2024] Cover [20 Linear Predictors (part 3 logistic regression).pdf](<Notes/20 Linear Predictors (part 3 logistic regression).pdf>). Logistic regression and GLM; derive loss function based on maximum likelihood; discuss log-sum-exp trick (e.g., `numpy.logaddexp` and `numpy.log1p`)
 - [Fri 3/1/2024]. Start [21 Boosting.pdf](<Notes/21 Boosting.pdf>). gamma-weak-learners, motivate need for boosting; example with 3-piece classifier and decision stump (10.1 in SS), and complexity of computing ERM of decision stumps.
 
