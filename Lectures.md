@@ -84,7 +84,7 @@ Statistical Learning](https://web.stanford.edu/~hastie/ElemStatLearn/) by Hastie
 
 - [Mon 2/23/2026] Finish #14 on chaining argument for subspace; start [18 Linear Predictors (part 1 classification)](<Notes/18 Linear Predictors (part 1 classification).pdf>), cover binary predictors, introduce linear programs and discuss their complexity. Discuss ERM of binary classification (tractable iff separable).
 
-- [Wed 2/25/2026] Finish #18 (Perceptron), start [19 Linear Predictors (part 2 regression)](<Notes/19 Linear Predictors (part 2 regression).pdf>). We spent the last 30 min on laptops doing the [Least Squares Programming Challenge](Code/LeastSquaresChallenge.ipynb) (solutions are on the Solutions branch of the git repo)
+- [Wed 2/25/2026] Finish #18 (Perceptron), start [19 Linear Predictors (part 2 regression)](<Notes/19 Linear Predictors (part 2 regression).pdf>). We spent the last 30 min on laptops doing the [Least Squares Programming Challenge](Code/LeastSquaresChallenge.ipynb) (solutions are on the Solutions branch of the git repo; see [`LeastSquaresChallenge_soln.ipynb`](https://github.com/stephenbeckr/ML-theory-class/blob/solutions/Code/LeastSquaresChallenge_soln.ipynb)
 
 - [Fri 2/27/2026] Finish #19, going over the ERM methods and then discussing pseudo-dimension.
 
