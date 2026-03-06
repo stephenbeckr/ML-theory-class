@@ -18,6 +18,7 @@ List of homeworks:
 - [HW 5](APPM4490_Spr26_HW05.pdf), due Wed Feb 18 2026 at 11 AM. Turn this in online via Canvas/Gradescope. Topics: VC dimension.
 - [HW 6](APPM4490_Spr26_HW06.pdf), due Wed Feb 25 2026 at 11 AM. Turn this in online via Canvas/Gradescope. Topics: VC dimension.
 - [HW 7](APPM4490_Spr26_HW07.pdf), due Wed Mar 4 2026 at 11 AM. Turn this in online via Canvas/Gradescope. Topic: boosting for probability amplification.
+- [HW 8](APPM4490_Spr26_HW08.pdf), due Fri Mar 13 2026 at 11 AM. Turn this in online via Canvas/Gradescope. Topic: short VC dim practice for midterm.
 
 <!--  OLD list from 2204
 - [HW 1](APPM4490_Spr24_HW01.pdf), due Fri Jan 26 2024 at noon. Turn this in class or online via Canvas/Gradescope
