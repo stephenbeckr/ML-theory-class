@@ -1,6 +1,6 @@
 # APPM 4490/5490 Theoretical Machine Learning Final Project
 
-- The project is due by 7:30 PM on Sunday May 5th 2024 (the start of our final exam period). The 2.5 hour final exam period from 7:30--10 PM will be used for student presentations.
+- The project is due by 1:30 PM on Tuesday April 28 2026 (the start of our final exam period). The 2.5 hour final exam period from 1:30--4 PM will be used for student presentations.
   - There is no final exam
 - The project consists of a 5 minute presentation and a short paper. There is no strict length requirement for the paper, but aim for 4 to 6 pages (including figures). Paper lengths are a guideline, as I’m aware you can add figures, code, adjust white space and font to make it longer/shorter.
   - We have 2.5 hours for presentations, and 25 groups, so that's 6 min/group, so aim for about a 5 min presentation and hopefully 1 min transitions
