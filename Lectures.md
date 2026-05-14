@@ -13,7 +13,7 @@ Abbreviations for sources:
 - [Hastie] is [The Elements of
 Statistical Learning](https://web.stanford.edu/~hastie/ElemStatLearn/) by Hastie, Tibshirani and Friedman (2nd ed, 2009)
 - [Vogel] is [Computational Inverse Problems](https://epubs.siam.org/doi/book/10.1137/1.9780898717570) by Vogel (2002).
-- [RW] is [Gaussian Processes for Machine Learning](http://www.gaussianprocess.org/gpml/) by Rasmussen and Williams (2006, MIT press, free PDFs online)
+- [RW] is [Gaussian Processes for Machine Learning](http://gaussianprocess.org/gpml/) by Rasmussen and Williams (2006, MIT press, free PDFs online)
 - [Murphy] is Kevin Murphy's [Machine Learning: a Probabilistic Perspective](https://www.cs.ubc.ca/~murphyk/MLbook/) (2012, MIT press)
 - [SuttonBarto] is Richard Sutton and Andrew Barto's [Reinforcement Learning: An Introduction](http://incompleteideas.net/book/the-book-2nd.html) (2018, 2nd edition)
 - [Puterman] is Martin Puterman's [Markov Decision Processes: Discrete Stochastic Dynamic Programming](https://dl.acm.org/doi/book/10.5555/528623) (1994, John Wiley)
@@ -42,9 +42,9 @@ Statistical Learning](https://web.stanford.edu/~hastie/ElemStatLearn/) by Hastie
 - [Fri 1/23/2026]  Continue on [07 Uniform Convergence](Notes/07_UniformConvergence_finiteClass.pdf), proving [Hoeffding's inequality](https://en.wikipedia.org/wiki/Hoeffding%27s_inequality)
 
 ### Week 4. No Free Lunch / Bias-Variance, Rademacher complexity
-- [Mon 1/26/2026] [08 No Free Lunch](Notes/8_NoFreeLunches.pdf) theorem and hence the need for some inductive bias.
+- [Mon 1/26/2026] [08 No Free Lunch](Notes/08_NoFreeLunches.pdf) theorem and hence the need for some inductive bias.
 
-- [Wed 1/28/2026] [9 Bias Variance Tradeoff (ch 5)](Notes/9_BiasVarianceTradeoff.pdf), discussing double-descent and the [James-Stein estimator](https://en.wikipedia.org/wiki/James%E2%80%93Stein_estimator). Did an [in-class exercise to prove the James Stein result](Notes/09_extra_JamesStein.pdf)
+- [Wed 1/28/2026] [9 Bias Variance Tradeoff (ch 5)](Notes/09_BiasVarianceTradeoff.pdf), discussing double-descent and the [James-Stein estimator](https://en.wikipedia.org/wiki/James%E2%80%93Stein_estimator). Did an [in-class exercise to prove the James Stein result](Notes/09_extra_JamesStein.pdf)
 
 - [Fri 1/30/2026] [10 Intro to Rademacher Complexity](Notes/10_Intro_RademacherComplexity.pdf) introducing Rademacher complexity. We follow the Mohri text book for a lot of this. In-class exercise on sup of expectations
   - See [Supplemental notes: Commuting operators](Notes/Supplement-CommutingOperators.pdf) for when you can interchange operations like limit and integrals, or sup and inf, etc.
@@ -99,7 +99,7 @@ Statistical Learning](https://web.stanford.edu/~hastie/ElemStatLearn/) by Hastie
 
 ### Week 10. Midterm and start model selection/validation (ch 11 of [SSS])
 
-- [Mon 3/9/2026] [Midterm review](MidtermReview.pdf)
+- [Mon 3/9/2026] [Midterm review](Notes/MidtermReview.pdf)
 
 - [Wed 3/11/2026] In-class Midterm
 
@@ -145,7 +145,7 @@ Overall topics for the model selection lectures:
 - [Fri 4/10/2026] SGD and gradient descent
   - [Unified analysis of gradient/subgradient descent](Notes/SubgradientDescent.pdf) typed notes, covering Lemma 1 in detail, the others briefly
   - Types of convergence; Discuss L1 vs L2 convergence (convergence in mean vs quadratic mean), almost sure convergence, etc. References: the "Probability theory "Cliff's Notes"" in Canvas; or see Week 2, the discussion around notes #5, including [measure-theoretic probability](<Notes/Supplement - measure-theoretic probability cheat sheet.pdf>) notes.
-  - We also have the [Random variables convergence worksheet](<29d SGD - Random Variable Convergence Worksheet.pdf>) for in-class exercises (in 2026, we didn't follow this exactly)
+  - We also have the [Random variables convergence worksheet](<Notes/29d SGD - Random Variable Convergence Worksheet.pdf>) for in-class exercises (in 2026, we didn't follow this exactly)
   - Start some of [#29 ch14 SGD](Notes/Spring2020/ch14_SGD.pdf) (L1 convergence proof of SGD). Discuss Stochastic Approximation (SA) vs Sample Average Approximation (SAA/ERM)
 
 ### Week 14. Ch 14 and 15 (SVM) in [SSS]
@@ -178,15 +178,15 @@ In 2020, since we were online at the end due to the pandemic, we went faster (pr
 
 
 #### Ch 20 Neural Nets [SSS and various sources]
-- Start on ch 20 Neural Networks [ch20_NN_part1_approxError](ch20_NN_part1_approxError.pdf)
-- More on approximation error of neural networks; didn't have time to talk about estimation error (generalization) [ch20_NN_part2_estimationError](https://github.com/stephenbeckr/ML-theory-class/blob/master/Notes/Spring2020/ch20_NN_part2_estimationError.pdf) nor optimization error [ch20_NN_part3_optimizationError](Notes/Spring2020/ch20_NN_part3_optimizationError.pdf)
+- Start on ch 20 Neural Networks [ch20_NN_part1_approxError](Notes/Spring2020/ch20_NN_part1_approxError.pdf)
+- More on approximation error of neural networks; didn't have time to talk about estimation error (generalization) [ch20_NN_part2_estimationError](Notes/Spring2020/ch20_NN_part2_estimationError.pdf) nor optimization error [ch20_NN_part3_optimizationError](Notes/Spring2020/ch20_NN_part3_optimizationError.pdf)
 
 - **Neural nets** description, background and history, discussion of **approximation error** (e.g., universal function approximation, like Stone-Weierstrass style density theorems) for many variants (e.g., L^1 density, density in continuous functions with uniform norm, exact representation of Boolean functions, etc.). Lower bounds on size of networks needed to approximate functions. Some from book, some from recent neural net papers in past 4 years.  Discussion of shortcoming of classical theory, some mention of modern algorithm-dependent approaches. [PDF of notes (handwritten) about neural net *approximation* error](Notes/Spring2020/ch20_NN_part1_approxError.pdf)
 - Short lecture on bounding the **VC dimension of neural nets**. Proof for one activation function, results stated for two more activation functions. [PDF of notes (handwritten) about neural net *estimation* error](Notes/Spring2020/ch20_NN_part2_estimationError.pdf)
 
 - Short lecture on the **NP-Hardness of ERM (e.g., training) for neural nets** (no proof), discussion of **SGD** again, except in non-convex case. Introduce **reverse-mode Automatic Differentiation** (at a high-level, no example) and **backpropagation** for neural nets. [PDF of notes (handwritten) about neural net *optimization* error](Notes/Spring2020/ch20_NN_part3_optimizationError.pdf)
 
-- See the [related neural net demo](neuralNetExample/) in Matlab, showing an example of two neural nets for the same problem, both with zero empirical risk, one of them hand-tuned (and has bad generalization error), the other trained via SGD and has much better generalization error.
+- See the [related neural net demo](Code/neuralNetExample/) in Matlab, showing an example of two neural nets for the same problem, both with zero empirical risk, one of them hand-tuned (and has bad generalization error), the other trained via SGD and has much better generalization error.
 
 #### Ch 21 [SSS] on Online learning
 - **online learning** for binary classification, discussing the **consistent**, **halving** an **standard optimal algorithm** of Littlestone. Discuss the **Littlestone dimension** and **shattering trees**.  Prove **mistake bounds** and **regret bounds**. [PDF of notes (handwritten) about online classification](Notes/Spring2020/ch21_OnlineLearning_part1_classification.pdf)
