@@ -88,25 +88,29 @@ Statistical Learning](https://web.stanford.edu/~hastie/ElemStatLearn/) by Hastie
 
 - [Fri 2/27/2026] Finish #19, going over the ERM methods and then discussing pseudo-dimension.
 
-## 2024 schedule:
-**NOTE: These are still the 2024 dates, and will be adjusted to 2026 dates gradually**
 
+### Week 9. Linear predictors, ch 10 of [SSS] on boosting
 
+- [Mon 3/2/2026] Cover [20 Linear Predictors (part 3 logistic regression).pdf](<Notes/20 Linear Predictors (part 3 logistic regression).pdf>). Logistic regression and GLM; derive loss function based on maximum likelihood; discuss log-sum-exp trick (e.g., `numpy.logaddexp` and `numpy.log1p`). Start [21 Boosting.pdf](<Notes/21 Boosting.pdf>). gamma-weak-learners, motivate need for boosting; example with 3-piece classifier and decision stump (10.1 in SS), and complexity of computing ERM of decision stumps.
 
+- [Wed 3/5/2026] Finish [21 Boosting.pdf](<Notes/21 Boosting.pdf>). Continue on #21, complexity of sorting, top-k problems, median finding, shuffling (Fisher-Yates-Knuth shuffle). Comparison to Bootstrap and Bagging.
 
+- [Fri 3/6/2026] Cover [22 AdaBoost.pdf](<Notes/22 AdaBoost.pdf>), analysis of training error convergence.
 
-### Week 7. Linear predictors, ch 10 of [SSS] on boosting
+### Week 10. Midterm and start model selection/validation (ch 11 of [SSS])
 
-- [Wed 2/28/2024] Cover [20 Linear Predictors (part 3 logistic regression).pdf](<Notes/20 Linear Predictors (part 3 logistic regression).pdf>). Logistic regression and GLM; derive loss function based on maximum likelihood; discuss log-sum-exp trick (e.g., `numpy.logaddexp` and `numpy.log1p`)
-- [Fri 3/1/2024]. Start [21 Boosting.pdf](<Notes/21 Boosting.pdf>). gamma-weak-learners, motivate need for boosting; example with 3-piece classifier and decision stump (10.1 in SS), and complexity of computing ERM of decision stumps.
+- [Mon 3/9/2026] [Midterm review](MidtermReview.pdf)
 
-### Week 8. Finish boosting, start model selection/validation (ch 11 of [SSS])
-- [Mon 3/4/2024] Continue on #21, complexity of sorting, top-k problems, median finding, shuffling (Fisher-Yates-Knuth shuffle). Comparison to Bootstrap and Bagging. Start [22 AdaBoost.pdf](<Notes/22 AdaBoost.pdf>)
-- [Wed 3/6/2024] Class canceled
-- [Fri 3/8/2024] Finish #22 on AdaBoost, analysis of training error convergence. Start [#23 Model Selection and Validation](<Notes/23 Model Selection and Validation.pdf>)
+- [Wed 3/11/2026] In-class Midterm
 
-### Week 9. Model Selection and Validation, and midterm
-- [Mon 3/11/2024] Continue on [#23 Model Selection and Validation](<Notes/23 Model Selection and Validation.pdf>). Overall topics this week and next:
+- [Fri 3/13/2026] Start [#23 Model Selection and Validation](<Notes/23 Model Selection and Validation.pdf>). Presented these notes on the computer (not chalkboard) to make it go faster.
+
+### Spring Break
+
+### Week 11. Model Selection, ch 11 of [SSS]; start optimization (ch 12 [SsS])
+
+- [Mon 3/23/26] Finish [#23 Model Selection and Validation](<Notes/23 Model Selection and Validation.pdf>) by covering Stein's SURE; cover [#24 More Model Selection and Validation](<Notes/24 More Model Selection and Validation.pdf>); start [#25 More Model Selection and Validation](<Notes/25 Even More Model Selection %28Bootstrap, CV, GCV%29.pdf>).
+Overall topics for the model selection lectures:
   1. Structured Risk Minimization (SRM). Ref: [SSS]
   2. Validation set (the test/train/validation split), Bonferroni correction
   3. Mallow's C_p / Unbiased Predictive Risk Estimate (UPRE); and Stein's Unbiased Risk Estimate (SURE)
@@ -119,82 +123,87 @@ Statistical Learning](https://web.stanford.edu/~hastie/ElemStatLearn/) by Hastie
   10. Cross-validation, loosely following Hastie et al.
   11. Generalized CV (GCV), Sherman-Morrison-Woodbury / matrix inversion lemma, Neumann series. Ref: Vogel.
 
+- [Wed 3/25/2026] Finish [#25 More Model Selection and Validation](<Notes/25 Even More Model Selection %28Bootstrap, CV, GCV%29.pdf>).
 
-- [Wed 3/13/2024] Exam review
-- [Fri 3/15/2024] Midterm planned but canceled due to snow day
+- [Fri 3/27/2026] Start [#26 Convex Learning Problems](<Notes/26 Convex Learning Problems.pdf>) on convex optimization
 
-### Week 10. Model Selection and Validation
-- [Mon 3/18/2024] Midterm
-- [Wed 3/20/2024] Continue on [#23 Model Selection and Validation](<Notes/23 Model Selection and Validation.pdf>) and start [#24 More Model Selection and Validation](<Notes/24 More Model Selection and Validation.pdf>)
-- [Fri 3/22/2024] Continue on [#24 More Model Selection and Validation](<Notes/24 More Model Selection and Validation.pdf>), start [#25 More Model Selection and Validation](<Notes/25 Even More Model Selection %28Bootstrap, CV, GCV%29.pdf>)
+### Week 12. Optimization (ch 12, 13 [SSS])
 
-### Spring break
+- [Mon 3/30/2026] No class due to travel
 
-### Week 11. Finish Model Selection, start optimization (ch 12, 13 [SsS])
-- [Mon 4/1/2024] Finish [#25 More Model Selection and Validation](<Notes/25 Even More Model Selection %28Bootstrap, CV, GCV%29.pdf>)
-- [Wed 4/3/2024] Start [#26 Convex Learning Problems](<Notes/26 Convex Learning Problems.pdf>) on convex optimization
-- [Fri 4/5/2024] Continue on #26
-  - We're skipping [Spring2020/ch12_convexInequalities](<Notes/Spring2020/ch12_convexInequalities.pdf>) and [SubgradientDescent](<Notes/SubgradientDescent.pdf>) but read on your own if you want
+- [Wed 4/1/2026] No class due to travel delays
 
-### Week 12. Algorithmic Stability (ch 13, 14 [SSS])
-- [Mon 4/8/2024] Start [Spring2020/ch13_stability_article](<Notes/Spring2020/ch13_stability_article.pdf>)
-- [Wed 4/10/2024] Finish lecture from last class, start and finish [Spring2020/ch13_stability_part2_OneNote](<Notes/Spring2020/ch13_stability_part2_OneNote.pdf>)
-- [Fri 4/12/2024] Start [ch14 SGD](Notes/Spring2020/ch14_SGD.pdf) (L1 convergence proof). Some of this is based on [Unified analysis of gradient/subgradient descent](Notes/SubgradientDescent.pdf) which we mostly skipped. Discuss L1 vs L2 convergence (convergence in mean vs quadratic mean), almost sure convergence, etc.. Discuss Stochastic Approximation (SA) vs Sample Average Approximation (SAA/ERM)
+- [Fri 4/3/2026] Almost finish [#26 Convex Learning Problems](<Notes/26 Convex Learning Problems.pdf>)]
+  - We're skipping [Spring2020/ch12_convexInequalities](<Notes/Spring2020/ch12_convexInequalities.pdf>)
 
+### Week 13. Optimization and Algorithmic Stability (ch 12, 13, 14 [SSS] ) 
 
-### Week 13. SGD (ch 14 [SSS])
-- [Mon 4/15/2024] Continue SGD; discuss types of convergence of random variables (formal definitions and subtleties) and did in-class worksheet on this [SGD - Random Variable Convergence Worksheet.pdf](<Notes/SGD - Random Variable Convergence Worksheet.pdf>)
-- [Wed 4/17/2024] (In-class quiz) Continue SGD. Discuss [when you can commute expectation and gradient](<Notes/SGD - commuting gradient and expectation.pdf>)   2026 update: see pages 2 and 3 of [Commuting operators](Notes/Supplement-CommutingOperators.pdf)
-- [Fri 4/19/2024] Continue SGD, start [ch15 SVM](Notes/Spring2020/ch15_SVM.pdf)
+- [Mon 4/6/2026] Finish [#26 Convex Learning Problems](<Notes/26 Convex Learning Problems.pdf>)], start [#27 Regularization And Stability part1](Notes/27_RegularizationAndStability_part1.pdf)
 
+- [Wed 4/8/2026] Finish [#27 Regularization And Stability part1](Notes/27_RegularizationAndStability_part1.pdf), then cover [#28 Regularization And Stability part2](Notes/28_RegularizationAndStability_part2.pdf)
 
-### Week 14. SVM and Kernels
-- [Mon 4/22/2024] Finish [ch15 SVM](Notes/Spring2020/ch15_SVM.pdf), start [ch16 kernels](Notes/Spring2020/ch16_kernels.pdf); (separable and non-separable cases, hard vs soft SVM, analysis without dimension dependence)
-- [Wed 4/24/2024] More on kernels. Motivation for kernels; the **kernel trick**, example with kernel ridge regression. Derivation via matrix inversion lemma.
-- [Fri 4/26/2024] Finish [ch16 kernels](Notes/Spring2020/ch16_kernels.pdf). Examples of kernels (polynomial, Gaussian, Matern). Kernel-SVM, kernel-ridge regression, kernel-PCA, nearest neighbor, kernel density estimation. Thm 16.1 Representer Thm, Lemma 16.2 (simplified Mercer's Thm), Reproducing Kernel Hilbert Spaces (RKHS). Random Fourier Features (Recht and Rahimi '07) and Bochner's theorem and the Nystrom method.
+- [Fri 4/10/2026] SGD and gradient descent
+  - [Unified analysis of gradient/subgradient descent](Notes/SubgradientDescent.pdf) typed notes, covering Lemma 1 in detail, the others briefly
+  - Types of convergence; Discuss L1 vs L2 convergence (convergence in mean vs quadratic mean), almost sure convergence, etc. References: the "Probability theory "Cliff's Notes"" in Canvas; or see Week 2, the discussion around notes #5, including [measure-theoretic probability](<Notes/Supplement - measure-theoretic probability cheat sheet.pdf>) notes.
+  - We also have the [Random variables convergence worksheet](<29d SGD - Random Variable Convergence Worksheet.pdf>) for in-class exercises (in 2026, we didn't follow this exactly)
+  - Start some of [#29 ch14 SGD](Notes/Spring2020/ch14_SGD.pdf) (L1 convergence proof of SGD). Discuss Stochastic Approximation (SA) vs Sample Average Approximation (SAA/ERM)
+
+### Week 14. Ch 14 and 15 (SVM) in [SSS]
+
+- [Mon 4/13/2026] More on [#29 ch14 SGD](Notes/Spring2020/ch14_SGD.pdf)
+
+- [Wed 4/15/2026] Finish [#29 ch14 SGD](Notes/Spring2020/ch14_SGD.pdf). 
+Discuss [SGD - when you can commute expectation and gradient](<Notes/SGD - commuting gradient and expectation.pdf>)   2026 update: see pages 2 and 3 of [Supplement - Commuting operators](Notes/Supplement-CommutingOperators.pdf)
+
+- [Fri 4/17/2026] Cover [#30 ch15 SVM](Notes/30_SVM.pdf) (separable and non-separable cases, hard vs soft SVM, analysis without dimension dependence). Also do Lagrange multiplier exercise
+
+### Week 15. Kernel methods, ch 16 in [SSS]
+
+- [Mon 4/20/2026] [#30 ch16 kernels](Notes/31_KernelMethods.pdf). Motivation for kernels; the **kernel trick**, example with kernel ridge regression. Derivation via matrix inversion lemma. Examples of kernels (polynomial, Gaussian, Matern). Kernel-SVM, kernel-ridge regression, kernel-PCA, nearest neighbor, kernel density estimation. Thm 16.1 Representer Thm, Lemma 16.2 (simplified Mercer's Thm), Reproducing Kernel Hilbert Spaces (RKHS). Random Fourier Features (Recht and Rahimi '07) and Bochner's theorem and the Nystrom method.
   - Refs: mostly ch 16 in [SSS] but also some from [Murphy] and some from [Fasshauer].
 
-### Week 15. TBD
-- [Mon 4/29/2024] Finish RKHS intro, then start [Gaussian Processes](Notes/Spring2020/GaussianProcesses.pdf) on GPs for regression, Bayesian setup, estimation and forecasting, facts about Gaussians
-- [Wed 5/1/2024] (Last day of class) Finish Gaussian Processes.
+- [Wed 4/22/2026] more on [#30 ch16 kernels](Notes/31_KernelMethods.pdf)
+
+- [Fri 4/24/2026] more on [#30 ch16 kernels](Notes/31_KernelMethods.pdf). Last day of class
 
 Note: unlike 2022 and 2020, in 2024 and 2026 we'll have project presentations during our 3 hour final exam slot, freeing up an extra 3 days of lecture
 
 
+
 ## Optional content if we have time
-In 2020, since we were online at the end due to the pandemic, we went faster (prewritten notes) and were able to cover the following (which we didn't get to in 2022 or 2024):
+In 2020, since we were online at the end due to the pandemic, we went faster (prewritten notes) and were able to cover the following (which we didn't get to in 2022 or 2024 or 2026):
+
+#### Gaussian Processes [Murphy]
+- in all years but 2026 we covered [Gaussian Processes](Notes/Spring2020/GaussianProcesses.pdf) on GPs for regression, Bayesian setup, estimation and forecasting, facts about Gaussians
 
 
-### Week N/A. Ch 16 Kernel methods [SSS], and Gaussian Processes [Murphy], and ch 20 Neural Nets [SSS and various sources]
-- [Mon 4/18] Finish kernels, going over Random Fourier Features (Recht and Rahimi '07) and Bochner's theorem and the Nystrom method.  Most of my notes followed ch 6 in [SSS] but some from Murphy.  Then start **Gaussian Processes**, mostly following Murphy's textbook and my written notes [Gaussian Processes](Notes/Spring2020/GaussianProcesses.pdf), for classification but mostly for regression.
-- [Wed 4/20] More on GPs for regression, Bayesian setup, estimation and forecasting, facts about Gaussians.  Start on ch 20 Neural Networks [ch20_NN_part1_approxError](ch20_NN_part1_approxError.pdf)
-- [Fri 4/22] More on approximation error of neural networks; didn't have time to talk about estimation error (generalization) [h20_NN_part2_estimationError](https://github.com/stephenbeckr/ML-theory-class/blob/master/Notes/Spring2020/ch20_NN_part2_estimationError.pdf) nor optimization error [ch20_NN_part3_optimizationError](Notes/Spring2020/ch20_NN_part3_optimizationError.pdf)
+#### Ch 20 Neural Nets [SSS and various sources]
+- Start on ch 20 Neural Networks [ch20_NN_part1_approxError](ch20_NN_part1_approxError.pdf)
+- More on approximation error of neural networks; didn't have time to talk about estimation error (generalization) [ch20_NN_part2_estimationError](https://github.com/stephenbeckr/ML-theory-class/blob/master/Notes/Spring2020/ch20_NN_part2_estimationError.pdf) nor optimization error [ch20_NN_part3_optimizationError](Notes/Spring2020/ch20_NN_part3_optimizationError.pdf)
 
+- **Neural nets** description, background and history, discussion of **approximation error** (e.g., universal function approximation, like Stone-Weierstrass style density theorems) for many variants (e.g., L^1 density, density in continuous functions with uniform norm, exact representation of Boolean functions, etc.). Lower bounds on size of networks needed to approximate functions. Some from book, some from recent neural net papers in past 4 years.  Discussion of shortcoming of classical theory, some mention of modern algorithm-dependent approaches. [PDF of notes (handwritten) about neural net *approximation* error](Notes/Spring2020/ch20_NN_part1_approxError.pdf)
+- Short lecture on bounding the **VC dimension of neural nets**. Proof for one activation function, results stated for two more activation functions. [PDF of notes (handwritten) about neural net *estimation* error](Notes/Spring2020/ch20_NN_part2_estimationError.pdf)
 
-#### Week N/A. Ch 20 [SSS] on artificial Neural Networks
-- [Mon 4/6] **Neural nets** description, background and history, discussion of **approximation error** (e.g., universal function approximation, like Stone-Weierstrass style density theorems) for many variants (e.g., L^1 density, density in continuous functions with uniform norm, exact representation of Boolean functions, etc.). Lower bounds on size of networks needed to approximate functions. Some from book, some from recent neural net papers in past 4 years.  Discussion of shortcoming of classical theory, some mention of modern algorithm-dependent approaches. [PDF of notes (handwritten) about neural net *approximation* error](Notes/Spring2020/ch20_NN_part1_approxError.pdf)
-- [Wed 4/8] Short lecture on bounding the **VC dimension of neural nets**. Proof for one activation function, results stated for two more activation functions. [PDF of notes (handwritten) about neural net *estimation* error](Notes/Spring2020/ch20_NN_part2_estimationError.pdf)
-
-- [Fr 4/10] Short lecture on the **NP-Hardness of ERM (e.g., training) for neural nets** (no proof), discussion of **SGD** again, except in non-convex case. Introduce **reverse-mode Automatic Differentiation** (at a high-level, no example) and **backpropagation** for neural nets. [PDF of notes (handwritten) about neural net *optimization* error](Notes/Spring2020/ch20_NN_part3_optimizationError.pdf)
+- Short lecture on the **NP-Hardness of ERM (e.g., training) for neural nets** (no proof), discussion of **SGD** again, except in non-convex case. Introduce **reverse-mode Automatic Differentiation** (at a high-level, no example) and **backpropagation** for neural nets. [PDF of notes (handwritten) about neural net *optimization* error](Notes/Spring2020/ch20_NN_part3_optimizationError.pdf)
 
 - See the [related neural net demo](neuralNetExample/) in Matlab, showing an example of two neural nets for the same problem, both with zero empirical risk, one of them hand-tuned (and has bad generalization error), the other trained via SGD and has much better generalization error.
 
-#### Week N/A. Ch 21 [SSS] on Online learning
-- [Mon and Wed 4/13 and 4/15] **online learning** for binary classification, discussing the **consistent**, **halving** an **standard optimal algorithm** of Littlestone. Discuss the **Littlestone dimension** and **shattering trees**.  Prove **mistake bounds** and **regret bounds**. [PDF of notes (handwritten) about online classification](Notes/Spring2020/ch21_OnlineLearning_part1_classification.pdf)
+#### Ch 21 [SSS] on Online learning
+- **online learning** for binary classification, discussing the **consistent**, **halving** an **standard optimal algorithm** of Littlestone. Discuss the **Littlestone dimension** and **shattering trees**.  Prove **mistake bounds** and **regret bounds**. [PDF of notes (handwritten) about online classification](Notes/Spring2020/ch21_OnlineLearning_part1_classification.pdf)
 
-- [Fri 4/17] The **doubling trick** and **online-to-batch** conversion.  **Convex online learning** (skip proof, as similar to ch 14), and briefly mention the **perceptron**. See Shalev-Shwartz's 2011 monograph on *Online Learning* for more background. [PDF of notes (handwritten) about doubling/online-to-batch/online-convex](Notes/Spring2020/ch21_OnlineLearning_part2.pdf)
+- The **doubling trick** and **online-to-batch** conversion.  **Convex online learning** (skip proof, as similar to ch 14), and briefly mention the **perceptron**. See Shalev-Shwartz's 2011 monograph on *Online Learning* for more background. [PDF of notes (handwritten) about doubling/online-to-batch/online-convex](Notes/Spring2020/ch21_OnlineLearning_part2.pdf)
 
-#### Week N/A. Reinforcement Learning (from ch 17 [Mohri])
-- [Mon 4/20] Introduction to **Reinforcement Learning** (RL) mostly following Mohri, but with examples from [SuttonBarto] and [Puterman]. Give examples: MuJuCo, AlphaGo, Tesauro's backgammon, [Pig dice game](https://en.wikipedia.org/wiki/Pig_(dice_game)). Define **infinite-horizon**, **discounted**, **Markov Decision process (MDP)**, and define the value of a **policy**, and define an optimal policy. Discuss finite-MDP and deterministic policies. [PDF of notes (handwritten) about intro to RL](Notes/Spring2020/ReinforcementLearning_part1.pdf)
-- [Wed 4/22] Theoretical background on optimality and **state-action value function Q**, eventually deriving the **Bellman Equations**. [PDF of notes (handwritten) about Bellman Equations](Notes/Spring2020/ReinforcementLearning_part2.pdf)
+#### Reinforcement Learning (from ch 17 [Mohri])
+- Introduction to **Reinforcement Learning** (RL) mostly following Mohri, but with examples from [SuttonBarto] and [Puterman]. Give examples: MuJuCo, AlphaGo, Tesauro's backgammon, [Pig dice game](https://en.wikipedia.org/wiki/Pig_(dice_game)). Define **infinite-horizon**, **discounted**, **Markov Decision process (MDP)**, and define the value of a **policy**, and define an optimal policy. Discuss finite-MDP and deterministic policies. [PDF of notes (handwritten) about intro to RL](Notes/Spring2020/ReinforcementLearning_part1.pdf)
+- Theoretical background on optimality and **state-action value function Q**, eventually deriving the **Bellman Equations**. [PDF of notes (handwritten) about Bellman Equations](Notes/Spring2020/ReinforcementLearning_part2.pdf)
 
-- [Fri 4/24] (Note: for the next three classes, there are presentations, but still two lectures) **Planning algorithms** (aka **dynamic programming**) including **value iteration** (and variants like Gauss-Seidel), **policy iteration** (and variants, like modified policy iteration), and **linear programming** formulation. [PDF of notes (handwritten) about Planning Algoriths](Notes/Spring2020/ReinforcementLearning_part3.pdf)
+- (Note: for the next three classes, there are presentations, but still two lectures) **Planning algorithms** (aka **dynamic programming**) including **value iteration** (and variants like Gauss-Seidel), **policy iteration** (and variants, like modified policy iteration), and **linear programming** formulation. [PDF of notes (handwritten) about Planning Algoriths](Notes/Spring2020/ReinforcementLearning_part3.pdf)
 
+- Learning algorithms: very short intro on **Stochastic Approximation** as generalization of law of large numbers, and on a **super-Martingale convergence theorem**, then on **Temporal Difference TD(0)** and **Q-learning** algorithms. [PDF of notes (handwritten) about Learning Algorithms](Notes/Spring2020/ReinforcementLearning_part4.pdf)
 
 *NOTE* in 2024, Ashutosh Trivedi is teaching a special topics course on Reinforcement Learning in the CS dept (CSCI 4831/7000)
 
-#### Week N/A, more RL
-- [Mon 4/27] Learning algorithms: very short intro on **Stochastic Approximation** as generalization of law of large numbers, and on a **super-Martingale convergence theorem**, then on **Temporal Difference TD(0)** and **Q-learning** algorithms. [PDF of notes (handwritten) about Learning Algorithms](Notes/Spring2020/ReinforcementLearning_part4.pdf)
+
 
 ## What we hope to cover in a typical course
 (high-level)

@@ -40,6 +40,6 @@ Because the type of report is a bit open-ended, the rubric below is necessarily 
 
 3. Insightful discussion (25%). You should discuss/analyze your results, and/or validate a conclusion. For a paper review, you should discuss the strengths and weaknesses of the paper. For a project that involves generating your own results, the quality of the actual work is included in this category.
 
-4. Professional communication (25%) of the written document and the oral presentation (and the slides). Well-organized and precise communication, grammatically correct writing, nicely format- ted documents and figures. Figures should be labeled appropriately.
+4. Professional communication (25%) of the written document and the oral presentation (and the slides). Well-organized and precise communication, grammatically correct writing, nicely formatted documents and figures. Figures should be labeled appropriately.  For the writing, you should have a clear narrative arc that makes it clear to the reader what the point of the paper is. You also want to organize it to be as modular as possible (think about how you read other people's papers: it's rare you read the whole paper start to finish in one sitting, but instead you jump around, or say "I'll come back and read the proof later, for now I'll assume it's true". So write your paper with this in mind. If someone doesn't understand the details of one section, hopefully it won't affect other sections).
 
 Here is a [more detailed rubric](ProjectRubric.pdf) that I will actually use for grading the projects.
