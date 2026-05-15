@@ -20,11 +20,14 @@ What we cover:
 
 # Student projects
 
+Spring 2026:
+[![image for spring 2026](img/SlideshowAllPresentations_4490_Spring26.jpg)](img/SlideshowAllPresentations_4490_Spring26.pdf)
+
 Spring 2024:
-[![image for spring 2024](SlideshowAllPresentations_4490_Spring24.jpg)](SlideshowAllPresentations_4490_Spring24.pdf)
+[![image for spring 2024](img/SlideshowAllPresentations_4490_Spring24.jpg)](img/SlideshowAllPresentations_4490_Spring24.pdf)
 
 Spring 2022:
-[![image for spring 2022](SlideshowAllPresentations_4490_Spring22.jpg)](SlideshowAllPresentations_4490_Spring22.pdf)
+[![image for spring 2022](img/SlideshowAllPresentations_4490_Spring22.jpg)](img/SlideshowAllPresentations_4490_Spring22.pdf)
 
 Spring 2020:
-[![image for spring 2020](SlideshowAllPresentations_7400Spr20_MLTheory.jpg)](SlideshowAllPresentations_7400Spr20_MLTheory.pdf)
+[![image for spring 2020](img/SlideshowAllPresentations_7400Spr20_MLTheory.jpg)](img/SlideshowAllPresentations_7400Spr20_MLTheory.pdf)
