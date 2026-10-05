@@ -1,5 +1,5 @@
 # ML-theory-class
-Theoretical Machine Learning (APPM 4490/5490) class, Spring 2026, at CU Boulder
+Theoretical Machine Learning (APPM 4490/5490) class, Spring 2026 at CU Boulder
 
 This github repo has a mix of new (Spring 2026) and old material (from when I previously taught it Spring 2020 under the special topics number APPM 7400, and from Spring 2022 and 2024)
 
